@@ -117,7 +117,24 @@ function inicializujDatabazi() {
             hodnota TEXT NOT NULL
         )`, () => {
             // Vložíme výchozí klíč na začátku, pokud tam žádný není
-            db.run(`INSERT OR IGNORE INTO nastaveni (klic, hodnota) VALUES ('registracni_kod', 'HASICI2026')`);
+        db.run(`INSERT OR IGNORE INTO nastaveni (klic, hodnota) VALUES ('registracni_kod', 'HASICI2026')`);
+        
+        // --- SEEDOVÁNÍ ADMINISTRÁTORA ---
+        // Na free hostingu (Render) se DB při restartu smaže.
+        // Toto zajistí, že při startu bude vždy existovat admin účet.
+        db.get("SELECT id FROM uzivatele WHERE jmeno = 'admin'", (err, row) => {
+            if (!row) {
+                const defaultPass = 'admin123';
+                bcrypt.hash(defaultPass, 10, (err, hash) => {
+                    if (!err) {
+                        db.run("INSERT INTO uzivatele (jmeno, email, heslo, role) VALUES (?, ?, ?, ?)", 
+                        ['admin', 'admin@sdhborotin.cz', hash, 'admin'], (insErr) => {
+                            if (!insErr) console.log('Výchozí administrátor vytvořen (admin / admin123)');
+                        });
+                    }
+                });
+            }
+        });
         });
 
         console.log('Tabulky v databázi jsou připraveny.');
