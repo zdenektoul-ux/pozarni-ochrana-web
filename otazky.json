@@ -1,0 +1,1991 @@
+[
+    {
+        "id": 1,
+        "otazka": "Jaké je telefonní číslo na hasiče v České republice?",
+        "moznosti": [
+            "150",
+            "155",
+            "158",
+            "112"
+        ],
+        "spravnaOdpoved": 0,
+        "vysvetleni": "Linka 150 je přímá volba na Hasičský záchranný sbor ČR.",
+        "kategorie": "mix"
+    },
+    {
+        "id": 2,
+        "otazka": "Čím se nesmí hasit hořící olej na pánvi?",
+        "moznosti": [
+            "Vodou",
+            "Pěnovým hasicím přístrojem",
+            "Zakrytím mokrým hadrem",
+            "Pískem"
+        ],
+        "spravnaOdpoved": 0,
+        "vysvetleni": "Při hašení horkého oleje vodou by došlo k prudkému varu a explozivnímu rozprsknutí hořícího oleje po okolí.",
+        "kategorie": "mix"
+    },
+    {
+        "id": 3,
+        "otazka": "Který hasicí přístroj je nejvhodnější k hašení elektrických zařízení pod proudem?",
+        "moznosti": [
+            "Vodní",
+            "Pěnový",
+            "Sněhový (CO2)",
+            "K hašení přístrojů pod proudem se nesmí použít žádný přístroj"
+        ],
+        "spravnaOdpoved": 2,
+        "vysvetleni": "Sněhový hasicí přístroj (CO2) je nevodivý a nezanechává zbytky, které by mohly zařízení dále poškodit.",
+        "kategorie": "mix"
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Jaký je stanovený časový limit pro výjezd jednotky kategorie JPO II (jednotka SDH obce s členy, kteří vykonávají službu jako své povolání)?",
+        "moznosti": [
+            "2 minuty",
+            "5 minut",
+            "10 minut",
+            "15 minut"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Podle vyhlášky o organizaci a činnosti JPO je určený časový limit k výjezdu pro kategorii JPO II stanoven na 5 minut.",
+        "id": 4
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Kdo jmenuje a odvolává velitele jednotky sboru dobrovolných hasičů obce (JSDH obce)?",
+        "moznosti": [
+            "Zastupitelstvo obce na návrh velitele stanice HZS",
+            "Ředitel příslušného HZS kraje",
+            "Starosta obce po vyjádření HZS kraje k jeho způsobilosti",
+            "Velitel zásahu při pravidelném taktickém cvičení"
+        ],
+        "spravnaOdpoved": 2,
+        "vysvetleni": "Velitele obecní jednotky jmenuje a odvolává starosta obce, a to po vyjádření hasičského záchranného sboru kraje k jeho způsobilosti vykonávat funkci velitele.",
+        "id": 5
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Z kolika členů se skládá tzv. plné družstvo v jednotce sboru dobrovolných hasičů obce?",
+        "moznosti": [
+            "Z velitele družstva a dalších tří hasičů",
+            "Z velitele družstva a dalších pěti hasičů",
+            "Z velitele družstva, strojníka a dalších dvou hasičů",
+            "Z velitele družstva a dalších osmi hasičů"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "V jednotce SDH obce jsou hasiči rozděleni do družstev, přičemž plné družstvo tvoří velitel družstva a dalších pět hasičů.",
+        "id": 6
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Co přesně se v radiovém provozu hasičů používá jako tísňové volání (při nebezpečí z prodlení)?",
+        "moznosti": [
+            "Třikrát opakované slovo 'pomoc'",
+            "Třikrát opakované slovo 'tíseň'",
+            "Slovo 'MAYDAY' opakované do přerušení hovoru",
+            "Dlouhý nepřerušovaný tón ve vysílačce"
+        ],
+        "spravnaOdpoved": 0,
+        "vysvetleni": "Tísňovým voláním je třikrát opakované slovo 'pomoc', na které musí všechny ostatní radiostanice ihned přerušit provoz a zůstat na příjmu.",
+        "id": 7
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Při použití komunikace pomocí signálů lanem provede hasič dvojí trhnutí lanem. Jaký to má význam?",
+        "moznosti": [
+            "VODU! (požadavek na dodávku vody)",
+            "Žádost o okamžité zvýšení tlaku vody",
+            "Vodu STAV! (zastavení dodávky vody)",
+            "Nebezpečí! Všichni ZPĚT!"
+        ],
+        "spravnaOdpoved": 2,
+        "vysvetleni": "Signál 'Vodu STAV!' se provede dvojím trhnutím lanem, zatímco jedním trhnutím se žádá o vodu a několikerým rychlým trhnutím se vyhlašuje nebezpečí.",
+        "id": 8
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Jaká je základní podmínka pro bezpečnou úpravu zevnějšku hasiče (v oblasti tváře) při používání dýchací techniky?",
+        "moznosti": [
+            "Být starší 21 let a vlastnit příslušné řidičské oprávnění pro obsluhu techniky",
+            "Absolvovat speciální výcvik pro práce ve výškách a nad volnou hloubkou",
+            "Mít maximálně tři dny staré strniště, které nepřesahuje obrys masky",
+            "Být hladce oholen, povolen je pouze krátce střižený knír nezasahující do těsnicí linie masky"
+        ],
+        "spravnaOdpoved": 3,
+        "vysvetleni": "Pro bezpečný provoz dýchacího přístroje musí být tvář hladce oholena; povolen je pouze krátce střižený knír, který v neupraveném stavu nezasahuje do těsnicí linie masky.",
+        "id": 9
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Které kategorie dobrovolných jednotek požární ochrany obcí (JSDH) mají územní působnost a zasahují tak i mimo území svého zřizovatele?",
+        "moznosti": [
+            "JPO I a JPO IV",
+            "JPO V a JPO VI",
+            "JPO II a JPO III",
+            "Všechny kategorie dobrovolných jednotek bez rozdílu"
+        ],
+        "spravnaOdpoved": 2,
+        "vysvetleni": "Jednotky JPO II a JPO III mají územní působnost, což znamená, že podle poplachového plánu poskytují pomoc i na území ostatních obcí.",
+        "id": 10
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Jakým akustickým signálem je na klasické siréně vyhlašován 'Požární poplach' pro svolání jednotky?",
+        "moznosti": [
+            "Nepřerušovaný tón sirény po dobu 140 sekund",
+            "Jednou přerušený tón sirény během jedné minuty",
+            "Kolísavý tón sirény po dobu 140 sekund",
+            "Třikrát přerušený tón sirény během dvou minut"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Požární poplach je vyhlašován jednou přerušeným tónem sirény během jedné minuty (25s tón, 10s pauza, 25s tón).",
+        "id": 11
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Kdo je oprávněn přímo na místě zásahu odvolat hasiče nebo velitele jednotky z důvodu, že neplní svoje úkoly?",
+        "moznosti": [
+            "Velitel zásahu",
+            "Starosta obce",
+            "Hejtman kraje",
+            "Operační středisko (KOPIS)"
+        ],
+        "spravnaOdpoved": 0,
+        "vysvetleni": "Velitel zásahu může z místa zásahu odvolat velitele jednotky nebo hasiče, pokud neplní svoje úkoly, a určit jejich nástupce.",
+        "id": 12
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Co je to tzv. 'Operativní karta' v rámci dokumentace požární ochrany?",
+        "moznosti": [
+            "Průkaz velitele jednotky PO opravňující k nařizování záchranných prací civilistům",
+            "Zjednodušená forma dokumentace zdolávání požárů pro objekty s méně složitými podmínkami",
+            "Technická karta mobilní požární techniky s údaji o průjezdnosti terénem a parametry čerpadla",
+            "Dokument s přehledem všech zdrojů požární vody na území zřizovatele jednotky"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Operativní karta je zjednodušenou formou dokumentace zdolávání požárů (DZP) tvořená textovou a grafickou částí, která se zpracovává pro objekty, kde jsou méně složité podmínky pro zásah.",
+        "id": 13
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Kterým zákonem je v České republice primárně upraven Integrovaný záchranný systém (IZS)?",
+        "moznosti": [
+            "Zákon č. 133/1985 Sb.",
+            "Zákon č. 239/2000 Sb.",
+            "Zákon č. 246/2001 Sb.",
+            "Nařízení vlády č. 172/2001 Sb."
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Integrovaný záchranný systém je upraven zákonem č. 239/2000 Sb., o integrovaném záchranném systému a o změně některých zákonů. Zákon č. 133/1985 Sb. řeší samostatně požární ochranu.",
+        "id": 14
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Jaká hlavní omezení platí pro fyzické osoby podle zákona o požární ochraně ve vztahu k plošnému hoření?",
+        "moznosti": [
+            "Mohou vypalovat porosty pouze za přítomnosti jednotky požární ochrany",
+            "Fyzické osoby nesmí vypalovat porosty za žádných okolností",
+            "Vypalování porostů je fyzickým osobám povoleno po ohlášení starostovi obce",
+            "Porosty smí vypalovat pouze na vlastním pozemku do velikosti 100 m2"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Podle § 5 a § 17 zákona o požární ochraně platí striktní zákaz plošného vypalování porostů pro fyzické osoby, a rovněž pro podnikající fyzické a právnické osoby.",
+        "id": 15
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Na jaké dvě základní oblasti se člení výkon služby v jednotkách požární ochrany z hlediska řízení?",
+        "moznosti": [
+            "Na organizační a operační řízení",
+            "Na preventivní a represivní činnost",
+            "Na taktické a technické nasazení",
+            "Na administrativní a bojovou fázi"
+        ],
+        "spravnaOdpoved": 0,
+        "vysvetleni": "Podle legislativy se výkon služby v JPO člení na organizační řízení (udržení akceschopnosti) a operační řízení (samotný výjezd a zásah).",
+        "id": 16
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Co přesně upravuje dokumentace nazvaná 'Požární řád' podle vyhlášky o požární prevenci?",
+        "moznosti": [
+            "Zásady rychlého zdolávání požáru a postupy pro velitele zásahu",
+            "Způsob přijímání hlášení o požáru a vyhlašování poplachu zaměstnancům",
+            "Postup při evakuaci osob a zvířat z ohroženého objektu",
+            "Základní zásady zabezpečování PO na místech, kde se vykonávají činnosti se zvýšeným nebo vysokým požárním nebezpečím"
+        ],
+        "spravnaOdpoved": 3,
+        "vysvetleni": "Požární řád se zpracovává pro pracoviště a upravuje základní zásady zabezpečování PO na místech, kde se vykonávají činnosti se zvýšeným nebo s vysokým požárním nebezpečím.",
+        "id": 17
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Co se rozumí pod pojmem 'likvidační práce' v dikci zákona o IZS?",
+        "moznosti": [
+            "Omezení bezprostředního působení rizik a záchrana životů u nehody",
+            "Zásah vedoucí k přerušení bezprostředních příčin mimořádné události",
+            "Činnosti vedoucí k odstranění následků způsobených mimořádnou událostí",
+            "Vyšetřování příčin vzniku požáru a ohledání místa činu"
+        ],
+        "spravnaOdpoved": 2,
+        "vysvetleni": "Zatímco záchranné práce odvrací bezprostřední rizika (záchrana životů), likvidační práce jsou činnosti vedoucí k odstranění následků způsobených mimořádnou událostí.",
+        "id": 18
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Kolik stupňů poplachu IZS se vyhlašuje v závislosti na rozsahu události a jak se nazývá ten nejvyšší?",
+        "moznosti": [
+            "Tři stupně, nejvyšší je krizový stupeň",
+            "Čtyři stupně, nejvyšší je zvláštní stupeň poplachu",
+            "Pět stupňů, nejvyšší je generální poplach",
+            "Tři stupně, nejvyšší je třetí stupeň"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "V rámci IZS a požárního poplachového plánu se vyhlašují celkem čtyři stupně poplachu (I. až IV.), přičemž ten čtvrtý (nejvyšší) se označuje jako 'zvláštní'.",
+        "id": 19
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Které kategorie dobrovolných jednotek požární ochrany jsou primárně určeny výhradně pro místní působnost?",
+        "moznosti": [
+            "JPO I a JPO II",
+            "JPO II a JPO III",
+            "JPO IV a JPO V",
+            "JPO V a JPO VI"
+        ],
+        "spravnaOdpoved": 3,
+        "vysvetleni": "Jednotky JPO V (obecní) a JPO VI (podnikové dobrovolné) mají tzv. místní působnost a zasahují zpravidla pouze v katastrálním území nebo areálu svého zřizovatele.",
+        "id": 20
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Jaký je stanovený časový limit pro výjezd jednotky kategorie JPO III od vyhlášení poplachu?",
+        "moznosti": [
+            "2 minuty",
+            "5 minut",
+            "10 minut",
+            "15 minut"
+        ],
+        "spravnaOdpoved": 2,
+        "vysvetleni": "Pro jednotku sboru dobrovolných hasičů obce s územní působností kategorie JPO III je nařízený časový limit k výjezdu stanoven na 10 minut.",
+        "id": 21
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Jakou základní povinnost má velitel JPO, pokud jeho jednotka z důvodu poruchy nebo nedostatku osob nemůže po dobu výkonu služby udržet akceschopnost?",
+        "moznosti": [
+            "Do 24 hodin informovat starostu obce a velitele sousední stanice",
+            "Okamžitě dočasně nařídit zabavení techniky nejbližšímu civilnímu podniku",
+            "Zapsat situaci do knihy služeb a řešit ji až následující den ráno",
+            "Bezodkladně to oznámit územně příslušnému operačnímu středisku (KOPIS)"
+        ],
+        "spravnaOdpoved": 3,
+        "vysvetleni": "Podle vyhlášky č. 247/2001 Sb. je povinností velitele takovýto stav, bránící provedení zásahu, bezodkladně oznámit územně příslušnému operačnímu středisku.",
+        "id": 22
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Co udává pravidlo pro minimální zajištění sil a prostředků v plošném pokrytí u obce zařazené do stupně nebezpečí 'I A'?",
+        "moznosti": [
+            "1 JPO do 5 minut a další 1 JPO do 10 minut",
+            "2 JPO do 7 minut a další 1 JPO do 10 minut",
+            "1 JPO do 10 minut a další 2 JPO do 15 minut",
+            "3 JPO do 15 minut bez rozdílu kategorií"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Základní tabulka plošného pokrytí stanovuje pro území se stupněm I A dojezd dvou JPO do 7 minut a další jedné jednotky do 10 minut.",
+        "id": 23
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Z kolika členů se minimálně skládá tzv. 'družstvo ve zmenšeném početním stavu' přivolané v rámci plošného pokrytí?",
+        "moznosti": [
+            "Velitel + 2 hasiči",
+            "Velitel + 3 hasiči",
+            "Velitel + 5 hasičů",
+            "Strojník + 2 hasiči"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Minimálním odřadem zajišťujícím záchranné práce je družstvo ve zmenšeném početním stavu, což znamená 1 velitele a 3 hasiče, tedy celkem 4 osoby včetně strojníka.",
+        "id": 24
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Do jakého stupně požárního poplachového plánu (PPP) kraje se pro dané katastrální území primárně zařazují JSDH určené k zabezpečení plošného pokrytí?",
+        "moznosti": [
+            "Do I. stupně poplachu",
+            "Do II. stupně poplachu",
+            "Jako strategická záloha na stanici HZS",
+            "Do III. stupně poplachu, pro případ likvidačních prací"
+        ],
+        "spravnaOdpoved": 0,
+        "vysvetleni": "Jednotky zajišťující plošné pokrytí musí v obci dorazit v nejkratším čase, proto se v poplachovém plánu předurčují pro prvotní nasazení v I. stupni poplachu.",
+        "id": 25
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Kdo jmenuje a odvolává velitele jednotky sboru dobrovolných hasičů podniku (JSDHP)?",
+        "moznosti": [
+            "Starosta obce, ve které má podnik své sídlo",
+            "Ředitel příslušného HZS kraje",
+            "Zřizovatel jednotky (právnická či fyzická osoba) po vyjádření HZS kraje",
+            "Odborový svaz zaměstnanců podniku na návrh GŘ HZS"
+        ],
+        "spravnaOdpoved": 2,
+        "vysvetleni": "U podnikových jednotek velitele jmenuje a odvolává sám zřizovatel podniku, musí si však předem vyžádat vyjádření HZS kraje k jeho způsobilosti.",
+        "id": 26
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Do které speciální služby v jednotce PO spadá dýchací technika, protichemické obleky a přístroje pro detekci plynů?",
+        "moznosti": [
+            "Strojní služba",
+            "Technická služba",
+            "Chemická služba",
+            "Týlová služba"
+        ],
+        "spravnaOdpoved": 2,
+        "vysvetleni": "Udržování provozuschopnosti prostředků pro ochranu dýchacích cest, prostředků pro detekci, dekontaminaci a práci s nebezpečnými látkami řeší chemická služba.",
+        "id": 27
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Do které speciální služby v jednotce PO primárně spadá péče o požární hadice, armatury, žebříky a záchranná pneumatická zařízení bez motoru?",
+        "moznosti": [
+            "Spojová služba",
+            "Strojní služba",
+            "Technická služba",
+            "Chemická služba"
+        ],
+        "spravnaOdpoved": 2,
+        "vysvetleni": "Péči o záchranná nemotorizovaná zařízení, hadice, armatury, hasiva a prostředky pro práci ve výškách zajišťuje technická služba.",
+        "id": 28
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Do gesce jaké služby patří údržba elektrocentrál, přenosných motorových stříkaček, motorových pil a hydraulického vyprošťovacího zařízení?",
+        "moznosti": [
+            "Chemická služba",
+            "Technická služba",
+            "Strojní služba",
+            "Spojová služba"
+        ],
+        "spravnaOdpoved": 2,
+        "vysvetleni": "Věcné prostředky PO vybavené pohonnou částí (vše se spalovacím či velkým elektrickým motorem) a vyprošťovací zařízení s agregátem spadají pod strojní službu.",
+        "id": 29
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Jakou povinnost má strojník určený k řízení vozidel s přednostní jízdou, pokud v průběhu 4 týdnů neřídil požární vozidlo příslušné kategorie?",
+        "moznosti": [
+            "Musí složit teoretickou opakovací zkoušku z pravidel silničního provozu",
+            "Musí jet k nejbližším třem zásahům pouze na sedadle velitele nebo jako spolujezdec",
+            "Bezodkladně absolvuje kondiční jízdu v délce nejméně 10 km bez použití výstražného zařízení",
+            "Absolvuje s technikem jízdu zručnosti na uzavřeném dýmovém polygonu"
+        ],
+        "spravnaOdpoved": 2,
+        "vysvetleni": "Podle předpisů pro odbornou přípravu a úkolů strojní služby musí takový řidič bezodkladně provést kondiční jízdu o délce minimálně 10 km, a to bez zapnutých majáků.",
+        "id": 30
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Jak často se členové dobrovolné jednotky, kteří jsou určeni k používání dýchací techniky, musí minimálně procvičit v jejím použití?",
+        "moznosti": [
+            "Minimálně 1x za měsíc",
+            "Nejméně 1x za 3 měsíce",
+            "Alespoň 1x za 6 měsíců ve flashover kontejneru",
+            "Pouze jednou ročně před lékařskou prohlídkou"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "V rámci prohlubování odborných znalostí u nositelů dýchací techniky vyhláška stanoví, že se musí s přístrojem procvičit nejméně jednou za tři měsíce.",
+        "id": 31
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Ve kterém případě jednotka PO nesmí použít svěřenou požární techniku a věcné prostředky?",
+        "moznosti": [
+            "Pokud nemají výrazné žlutozelené zvýrazňující pruhy z výroby",
+            "Pokud nemají provedenou předepsanou kontrolu provozuschopnosti",
+            "Pokud přesně neodpovídají aktuálnímu celostátnímu katalogu typových činností",
+            "Když nebyly do 24 hodin od nákupu předvedeny zástupcům obce"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Podle zákona i prováděcí vyhlášky smí být jakákoliv technika nasazena do nebezpečného prostředí zásahu výhradně tehdy, má-li platnou kontrolu provozuschopnosti a revize.",
+        "id": 32
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Jaká jsou pravidla pro nošení vousů u hasičů, kteří používají izolační dýchací přístroje s maskou?",
+        "moznosti": [
+            "Plnovous je povolen, pokud má hasič speciální nomexovou ochrannou kuklu",
+            "Tvář musí být hladce oholena, povolen je pouze krátce střižený knír nezasahující do těsnicí linie",
+            "Vousy nesmí být delší než 15 milimetrů, těsnění masky se jim přizpůsobí silnějším dotažením",
+            "Během zásahu si hasič musí vousy vždy přelepit lepící izolační páskou"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "K zajištění naprosté těsnosti podtlakových i přetlakových masek, která chrání život zasahujícího, musí být obličej hladce oholen. Toleruje se jen krátký knír, který pod gumu masky nezasahuje.",
+        "id": 33
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Co zpravidla obsahuje tzv. 'operativní karta' jakožto součást dokumentace zdolávání požárů u podniků?",
+        "moznosti": [
+            "Tabulku se mzdami a osobními údaji všech členů podnikové JSDH",
+            "Smlouvu se zřizovatelem o poskytnutí náhrady škody u pojišťovny",
+            "Zjednodušenou textovou a grafickou část, půdorys s únikovými cestami a uzávěry energií",
+            "Výhradně složitou operativně-taktickou studii z nejhorší varianty požáru pro štáb velitele zásahu"
+        ],
+        "spravnaOdpoved": 2,
+        "vysvetleni": "Operativní karta se zpracovává pro jednodušší objekty a je to velmi stručná forma dokumentace obsahující půdorys, trasy, vodní zdroje a hlavní nebezpečí pro okamžitou rychlou orientaci jednotek.",
+        "id": 34
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Kdo je výhradně oprávněn řídit zásah, nařizovat způsoby záchrany a nasazení sil a prostředků přímo na místě mimořádné události?",
+        "moznosti": [
+            "Majitel hořícího nebo zasaženého objektu",
+            "Starosta příslušné obce se svou výkonnou pravomocí",
+            "Určený velitel zásahu z řad velitelů zasahujících JPO",
+            "Krajské operační středisko (KOPIS), které zásah sleduje vzdáleně"
+        ],
+        "spravnaOdpoved": 2,
+        "vysvetleni": "Přímo na místě události smí určovat způsob nasazení a vydávat rozkazy do nebezpečné zóny výhradně určený velitel zásahu podle svého průzkumu.",
+        "id": 35
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Za jakých striktních podmínek smí velitel zásahu nařídit nedodržení předepsaných technických podmínek prostředků PO (např. přetěžovat zařízení)?",
+        "moznosti": [
+            "Nesmí k tomu přistoupit v žádném případě, nesl by trestní odpovědnost",
+            "Pouze pokud s tím všichni členové jednotky svobodně souhlasí",
+            "Jestliže přímo a bezprostředně hrozí nebezpečí z prodlení při záchraně života osob",
+            "Kdykoli, pokud nasazením prostředku odvrátí ekologickou havárii nebo ztrátu drahého majetku"
+        ],
+        "spravnaOdpoved": 2,
+        "vysvetleni": "Bojový řád a metodické pokyny povolují vědomé technické přetížení či riziko poškození techniky jen a pouze tehdy, zamezuje-li se tím bezprostřednímu ohrožení života lidí.",
+        "id": 36
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Jaká hlavní zásada platí pro komunikaci HZS a JSDH formou takzvané 'jasné řeči' na radiostanicích?",
+        "moznosti": [
+            "Lze používat interní slangové šifry jednotky pro oklamání zvědavých civilistů",
+            "Slova a věty jsou jasné, nemají žádný skrytý význam a mohou se využívat běžné odborné výrazy",
+            "Veškerá mezinárodní komunikace na IZS kanálech musí probíhat v anglickém jazyce",
+            "Používají se pouze předem definovaná tříciferná kódová čísla z bezpečnostních tabulek"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Pravidlo 'jasné řeči' znamená absolutní srozumitelnost, aby jakákoliv cizí či posilová jednotka ihned porozuměla, oč jde, bez kódů nebo šifer.",
+        "id": 37
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Kdo je podle předpisů pro radiový provoz oprávněn ukončit započaté radiové spojení na místě zásahu?",
+        "moznosti": [
+            "Operační středisko (OPIS) prostřednictvím hromadné SMS zprávy",
+            "Kterýkoli účastník, pokud jeho dýchací přístroj začne signalizovat nízký tlak",
+            "Stanice, která radiové spojení původně navázala (volající), případně hlavní řídící stanice",
+            "Strojník u čerpadla z důvodu velkého hluku motoru CAS"
+        ],
+        "spravnaOdpoved": 2,
+        "vysvetleni": "Pravidla fonického radiového provozu stanovují, že k zamezení chaosu smí relaci se slovem 'konec' ukončit pouze ten, kdo hovor inicioval, nebo KOPIS/VZ jako řídící.",
+        "id": 38
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Když zasahující hasič odvysílá do radiostanice tísňový signál 'POMOC, POMOC, POMOC', co musí učinit ostatní radisté na tomto kmitočtu?",
+        "moznosti": [
+            "Přeladit stanici na náhradní kanál, aby uvolnili frekvenci veliteli",
+            "Všichni musí ihned přerušit běžný provoz, zůstat na příjmu a čekat na instrukce k poskytnutí pomoci",
+            "Začít křičet a snažit se tísňový signál přebít hlasitějším vlastním signálem poplachu",
+            "Zmáčknout červené tlačítko nouze na své radiostanici a provést evakuaci vozidel"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Po zvolání tísně 'pomoc' se jedná o ohrožení života zasahujícího. Všechny ostatní neesenciální zprávy na síti musí okamžitě ustat a přednost má pouze zachraňovaný hasič.",
+        "id": 39
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "V jakých případech se u rádiové relace hasičů s oblibou uplatňuje hláskovací tabulka (např. Adam, Božena...)?",
+        "moznosti": [
+            "Při slavnostním hlášení a přehlídkách jednotek zařazených v IZS",
+            "Při zhoršené kvalitě spojení k přesné identifikaci nesrozumitelného slova či zkratky",
+            "Ve standardním radioprovozu pro zrychlení komunikace místo používání celých slov",
+            "Pro zašifrování jmen zraněných či SPZ vozidel civilních osob"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Je-li signál rušen šumem či zhoršenými podmínkami (výbuchy, hluk motorů), hláskují se těžce srozumitelná důležitá slova podle národní nebo mezinárodní hláskovací tabulky.",
+        "id": 40
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Při jakých typech hasebních nebo záchranných prací se v rámci komunikace používají signály pomocí nataženého záchranného či útočného lana?",
+        "moznosti": [
+            "Slouží jako primární dorozumívací tichá linka při zhoršených podmínkách (zakouření, hluk), pokud radiostanice nelze spolehlivě použít",
+            "Natrvalo nahrazují analogové vysílačky, aby se eliminovalo riziko jisker u výbušných plynů",
+            "Měří se jimi vzdálenost roje pro případné vypracování operativní karty",
+            "Zajišťují pouze předávání povelů do vrtulníku letecké záchranné služby"
+        ],
+        "spravnaOdpoved": 0,
+        "vysvetleni": "V místech s omezenou viditelností (např. zakouřené sklepy) a velkým hlukem hasiči často komunikují se svým jističem mechanicky, trháním vodicího nebo útočného hadicového lana.",
+        "id": 41
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Jaký vizuálně-haptický povel provede hasič na proudnici, žádá-li strojníka o okamžité zastavení dodávky vody ('Vodu STAV!') pomocí signálů lanem?",
+        "moznosti": [
+            "Jedno dlouhé a silné nepřerušované tažení lana",
+            "Dvojí prudké trhnutí lanem",
+            "Tři krátká a tři dlouhá trhnutí napodobující SOS",
+            "Několikeré rychlé trhnutí za sebou a škubání celým tělem"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Podle Cvičebního řádu (technický výcvik) znamená u signálů lanem 1 trhnutí - dodávej vodu, 2 trhnutí - zastav vodu (vodu STAV), rychlé a mnohačetné trhnutí - vyhlašuje signál nebezpečí.",
+        "id": 42
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Kdo z přítomných na místě zásahu JPO má pravomoc podle § 88 zákona o PO nařídit okolním civilním osobám (čumilům), aby místo urychleně opustily a nepřekážely?",
+        "moznosti": [
+            "Nařízení smí provést striktně jen příslušník státní Policie ČR v uniformě",
+            "Starosta příslušné obce se svou výkonnou pravomocí jako nejvyšší činitel",
+            "Kromě policie toto výsadní právo mají i velitelé jednotek PO a velitel zásahu",
+            "Strojník, který zabezpečuje požární vozidlo s technikou na vozovce"
+        ],
+        "spravnaOdpoved": 2,
+        "vysvetleni": "Dle zákona mají oprávnění vyzvat k opuštění místa a vykázat osoby nejen příslušníci PČR, ale také přímo velitelé zásahujících jednotek PO a samotný velitel zásahu.",
+        "id": 43
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Jakou funkci primárně plní střední vrstva vícevrstvého ochranného oděvu pro hasiče?",
+        "moznosti": [
+            "Slouží jako tepelná reflexní vrstva odrážející sálavé teplo z požáru",
+            "Zabraňuje vniknutí vlhkosti zvenčí a odvádí pot zevnitř, tvoří tzv. vlhkostní bariéru",
+            "Zajišťuje mechanickou odolnost proti propíchnutí a pořezání",
+            "Obsahuje antistatická vlákna zamezující vzniku jisker v prostředí s nebezpečím výbuchu"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Vnitřní struktura vícevrstvého oděvu je navržena tak, že vnější vrstva odolává mechanickým vlivům, střední vrstva tvoří vlhkostní (klimatickou) bariéru a vnitřní vrstva funguje jako tepelná izolace.",
+        "id": 44
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Po kolika pracích cyklech provádí dle materiálů o osobních ochranných prostředcích revizi zásahového oděvu přímo jeho výrobce?",
+        "moznosti": [
+            "Po 20 pracích cyklech",
+            "Po 30 pracích cyklech",
+            "Po 40 pracích cyklech",
+            "Po 50 pracích cyklech"
+        ],
+        "spravnaOdpoved": 2,
+        "vysvetleni": "Běžné kontroly se dělají po každém praní, avšak po 40 pracích cyklech musí revizi oděvu a obnovu jeho vlastností provést výrobce.",
+        "id": 45
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Kdo jako jediný nemusí mít z posádky vozidla nasazenou přilbu během jízdy k zásahu?",
+        "moznosti": [
+            "Velitel vozu, který komunikuje přes vysílačku",
+            "Zdravotník (pokud je ve voze vyčleněn)",
+            "Hasiči sedící v zadní řadě proti směru jízdy",
+            "Strojník (řidič vozidla)"
+        ],
+        "spravnaOdpoved": 3,
+        "vysvetleni": "Předpisy pro jízdu k zásahu nařizují, že všichni hasiči ve vozidle musí mít přilbu, kromě strojníka, kterému by mohla bránit v bezpečném výhledu a řízení.",
+        "id": 46
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Jaká je povinnost hasičů ohledně bezpečnostních pásů při jízdě k zásahu požárním vozidlem?",
+        "moznosti": [
+            "Během jízdy pod majáky jsou plošně zproštěni povinnosti poutat se",
+            "Musí být vždy připoutáni, pokud to přímo nebrání rychlému opuštění vozidla a dostrojování",
+            "Poutat se smí pouze velitel a strojník v přední části kabiny",
+            "Poutají se pouze při jízdě mimo obec rychlostí vyšší než 50 km/h"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Hasiči jsou povinni být za jízdy připoutáni, pokud jim to při zásahu nebrání rychlému opuštění vozidla za účelem výkonu dalších povinností (např. dooblékání dýchací techniky).",
+        "id": 47
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Na čí výslovný pokyn mohou hasiči po příjezdu na místo události opustit kabinu zásahového vozidla?",
+        "moznosti": [
+            "Vystupují automaticky ihned, jakmile vozidlo zastaví a je zatažena brzda",
+            "Na pokyn velitele jednotky (po bezpečném zastavení vozidla)",
+            "Na signál strojníka, který otevře centrální zámky dveří",
+            "Na pokyn operačního střediska (KOPIS) přes terminál"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Hasič vystupuje z vozidla vždy až na pokyn velitele jednotky a musí si přitom dávat bedlivý pozor mimo jiné na projíždějící dopravu.",
+        "id": 48
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Jaké označení nese na svém vrchlíku tlaková láhev obsahující acetylen (dle nového značení)?",
+        "moznosti": [
+            "Žlutá",
+            "Bílá",
+            "Kaštanová",
+            "Jasně zelená"
+        ],
+        "spravnaOdpoved": 2,
+        "vysvetleni": "Barevné značení technických plynů určuje pro rozpuštěný acetylen nově kaštanovou barvu (dříve existovaly i jiné varianty).",
+        "id": 49
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Pokud na místě zásahu najdete neoznačenou tlakovou láhev a nejste schopni zjistit její barvu, jak k ní podle taktických pravidel přistupujete?",
+        "moznosti": [
+            "Počítáte s ní jako s prázdnou nádobou a odnesete ji stranou",
+            "Považujete ji za láhev s inertním plynem a řešíte okolní požár",
+            "Vždy předpokládáte, že obsahuje nebezpečný argon",
+            "Počítáte s nejhorší možnou variantou, tedy že obsahuje acetylen"
+        ],
+        "spravnaOdpoved": 3,
+        "vysvetleni": "Při absenci spolehlivého značení se z bezpečnostních důvodů musí u tlakových láhví předpokládat to největší riziko, což představuje acetylen (riziko exotermického rozkladu).",
+        "id": 50
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Které instituce či objekty se z pohledu HZS typicky řadí do kategorie „Složité podmínky pro zásah“?",
+        "moznosti": [
+            "Samostatně stojící rodinné domy a malé provozovny do 3 nadzemních podlaží",
+            "Zemědělské stodoly a seníky bez ohledu na velikost",
+            "Ubytovací objekty o 7 a více nadzemních podlažích (bez chráněné únikové cesty)",
+            "Běžné trafostanice na sloupech nízkého napětí"
+        ],
+        "spravnaOdpoved": 2,
+        "vysvetleni": "Objekty pro ubytování o 7 a více NP (nebo 4 a více PP) bez CHÚC znamenají složitou a nebezpečnou orientaci, pro kterou se zpracovává operativní dokumentace.",
+        "id": 51
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Co v praxi při ochraně zdraví znamenají tzv. R-věty (případně nověji GHS kódy) uvedené na nebezpečné látce?",
+        "moznosti": [
+            "Doporučené hasební postupy a vhodné pěnidlo",
+            "Rizikové věty, které popisují riziko spojené s manipulací s chemickými látkami a přípravky",
+            "Bezpečnostní věty s instrukcemi pro první pomoc a dekontaminaci (Rescue)",
+            "Příkazové věty určující povinné ochranné obleky pro průmyslové hasiče"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "R-věty (Risk phrases) standardizovaně upozorňují na konkrétní rizika látky. (S-věty jsou bezpečnostní, P-věty jsou podle novějšího systému GHS).",
+        "id": 52
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Které z následujících příznaků se běžně řadí mezi charakteristické projevy intoxikace nebezpečnou chemickou látkou?",
+        "moznosti": [
+            "Extrémní žízeň, slzení, zvýšená chuť k jídlu",
+            "Světloplachost, blouznění, střídavé pocity tepla a chladu, křeče",
+            "Náhlé vymizení hmatových vjemů a dočasné zlepšení zraku",
+            "Zvýšení kapacity plic a zrychlení tepové frekvence bez dalších obtíží"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Mezi charakteristické příznaky těžké intoxikace chemickou látkou patří mimo jiné blouznění, světloplachost, pocity tepla/chladu, křeče nebo změna barvy kůže.",
+        "id": 53
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Co se rozumí pod pojmem „doba latence“ v toxikologii a ochraně proti NL?",
+        "moznosti": [
+            "Doba potřebná pro rozpad chemické látky v životním prostředí",
+            "Minimální doba, po kterou je nutné hasiče sprchovat v dekontaminační sprše",
+            "Doba, za kterou dojde k vyprázdnění 6litrové tlakové lahve dýchacího přístroje",
+            "Časový úsek od kontaminace toxickou látkou do prvního projevu příznaků intoxikace"
+        ],
+        "spravnaOdpoved": 3,
+        "vysvetleni": "Příznaky intoxikace se nemusí projevit bezprostředně, ale až po určité tzv. době latence (od vystavení látce po nástup projevů).",
+        "id": 54
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Co bylo podle materiálů HZS historickým impulsem, který přiměl hasiče více se zabývat systematickou psychosociální pomocí zasaženým lidem i sobě navzájem?",
+        "moznosti": [
+            "Rozsáhlé železniční nehody v 90. letech",
+            "Výbuch plynu v panelovém domě, který si vyžádal mnoho obětí",
+            "Rozsáhlé povodně a jejich drastické následky",
+            "Teroristické útoky ve světě"
+        ],
+        "spravnaOdpoved": 2,
+        "vysvetleni": "Uvádí se, že traumatizující události typu rozsáhlých povodní byly zlomem, kdy si HZS uvědomil, že nestačí jen zachránit fyzický život, ale lidé zasažení katastrofou (i samotní záchranáři) potřebují psychologickou pomoc.",
+        "id": 55
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Jaká hodnota koncentrace hořlavých plynů či par (měřeno explozimetrem) je kritická a velitel zásahu při ní musí okamžitě přijmout opatření ke snížení nebezpečí výbuchu?",
+        "moznosti": [
+            "10 % dolní meze výbuchu (DMV)",
+            "20 % dolní meze výbuchu (DMV)",
+            "50 % dolní meze výbuchu (DMV)",
+            "80 % dolní meze výbuchu (DMV)"
+        ],
+        "spravnaOdpoved": 2,
+        "vysvetleni": "Při naměření hodnoty 50 % koncentrace spodní meze výbuchu (DMV) je situace natolik kritická, že se musí okamžitě provést zásadní opatření pro minimalizaci rizika iniciace nebo ústup.",
+        "id": 56
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Jaká je základní taktická zásada pro hašení při bezprostředním a reálném nebezpečí výbuchu na místě mimořádné události?",
+        "moznosti": [
+            "Útočit co nejvíce zblízka roztříštěným proudem pro maximální smáčivý efekt",
+            "Hašení a ochlazování se musí provádět výhradně z úkrytu a z větší bezpečné vzdálenosti",
+            "Používat výhradně těžkou a střední pěnu pro zadušení exploze",
+            "Nepoužívat vůbec vodu, aby se exploze neurychlila termickým šokem materiálu"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Ochrana životů a zdraví hasičů před výbuchem spočívá v provádění hašení či ochlazování z úkrytu a bezpečné vzdálenosti, odstavování CAS na návětrné straně atd.",
+        "id": 57
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Jaká je minimální stanovená taktická vzdálenost pro odstavení požární techniky od hlavy krajní koleje při zásahu na železnici?",
+        "moznosti": [
+            "1,5 metru",
+            "2,5 metru",
+            "3,0 metry",
+            "5,0 metrů"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Pravidla bezpečnosti na železnici vyžadují pro ochranu před projíždějícími vlaky odstavení techniky nejméně v bezpečné vzdálenosti 2,5 metru od hlavy krajní koleje.",
+        "id": 58
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Při zásahu na elektrické lokomotivě byl sběrač stažen a trakční vedení vypnuto. Můžete bezprostředně zahájit hasební práce uvnitř lokomotivy?",
+        "moznosti": [
+            "Ano, jakmile je sběrač dole, je lokomotiva zcela bez napětí",
+            "Ano, pokud strojník zapne ochlazovací vodní clonu proti elektrostatickému výboji",
+            "Ne, některá zařízení (vstupní filtry, kondenzátory) jsou i po stažení sběračů stále pod napětím a musí se odborně vyzkratovat a lokomotiva uzemnit",
+            "Ne, čeká se vždy dalších 60 minut na přirozené vychladnutí transformátorů"
+        ],
+        "spravnaOdpoved": 2,
+        "vysvetleni": "I po vypnutí a stažení sběračů hrozí u elektrické trakce smrtelné nebezpečí zbytkového napětí v kondenzátorech a filtrech, dokud nedojde k odbornému vyzkratování a uzemnění.",
+        "id": 59
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Co platí pro podlézání nebo překonávání odstavených železničních vozidel hasiči v rámci průzkumu nebo tvorby hadicového vedení?",
+        "moznosti": [
+            "Lze podlézat s maximální opatrností a vždy ve dvojici",
+            "Je povoleno pouze po odsouhlasení strojvedoucím daného vlaku",
+            "Je to absolutně zakázáno (zákaz podlézání železničních vozidel)",
+            "Smí se to provádět pouze se zapnutým dýchacím přístrojem kvůli riziku pádu brzd"
+        ],
+        "spravnaOdpoved": 2,
+        "vysvetleni": "Podlézání vagónů a lokomotiv je striktně zakázáno, protože vozidla se mohou kdykoliv neočekávaně dát do pohybu.",
+        "id": 60
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Jaký ochranný oděv použijí hasiči při likvidačních pracích s látkami typu PCB (polychlorované bifenyly), jestliže nehrozí tepelná destrukce, ale hrozí přímý kontakt?",
+        "moznosti": [
+            "Jednovrstvý lehký ochranný oděv do venkovního prostředí",
+            "Běžný vícevrstvý zásahový oděv doplněný pouze chemickými rukavicemi",
+            "Protichemický oděv typu 1b (rovnotlaký s dýchacím přístrojem vně oděvu) nebo 1a",
+            "Těžký oblek pro práce v infekčním a radiačním prostředí s olověnou vložkou"
+        ],
+        "spravnaOdpoved": 2,
+        "vysvetleni": "Na likvidační práce při úniku PCB se používá stupeň ochrany min. 4/PPO (plynotěsný protichemický ochranný oděv přetlakový 1a nebo rovnotlaký 1b).",
+        "id": 61
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Jak se má záchranář zachovat při ošetření pacienta (první pomoci), který nešťastnou náhodou požil látku s obsahem PCB (polychlorované bifenyly)?",
+        "moznosti": [
+            "Dát pacientovi vypít aktivní živočišné uhlí a ihned vyvolat zvracení prsty v krku",
+            "Uložit jej do stabilizované polohy, vypláchnout ústní dutinu a zásadně nevyvolávat zvracení",
+            "Podat mu mléko k neutralizaci a přimět ho k chůzi",
+            "Aplikovat kyslík a okamžitě nasadit silné žaludeční emetikum k rychlému vyprázdnění"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Při požití PCB (podobně jako u řady jiných chemických a žíravých látek) je vyvolávání zvracení zakázáno, aby nedošlo k poleptání dýchacích cest nebo vdechnutí chemikálie do plic.",
+        "id": 62
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Při nutném pohybu a práci u otevřených výkopů či propadlišť smí podle předpisů velitel zásahu vědomě překročit stanovené technické podmínky jištění a výškové techniky pouze za jedné podmínky. Jaké?",
+        "moznosti": [
+            "Pokud to schválí starosta obce, v níž se zasahuje",
+            "Pokud se jedná výhradně o odstraňování následků po povodních",
+            "Pokud hrozí bezprostřední nebezpečí z prodlení při záchraně lidského života",
+            "Jestliže o to výslovně a písemně požádá majitel poškozeného objektu"
+        ],
+        "spravnaOdpoved": 2,
+        "vysvetleni": "Dle zákona a bojového řádu může velitel zásahu rozhodnout o nedodržení technických podmínek techniky pouze tehdy, když zjevně hrozí nebezpečí z prodlení při záchraně osob (krajní nouze).",
+        "id": 63
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Při záchranných pracích a manipulaci s velkými hospodářskými zvířaty v ohrožení života jaká doporučená literatura je brána jako základní oborová metodika pro hasiče?",
+        "moznosti": [
+            "Konspekt 'Záchrana a evakuace ohroženého dobytka' od HZS hl. města Prahy",
+            "Publikace 'Záchrana zvířat' z edice SPBI Spektrum (od P. Nováka a kol.)",
+            "Zákon o veterinární péči a směrnice Ministerstva zemědělství z roku 2012",
+            "Operativní karta místního zemědělského družstva"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "V prezentacích se objevuje a doporučuje kniha 'Záchrana zvířat' i 'Záchrana zvířat II' (Novák, Šoch a kol.) jako primární taktický zdroj informací pro tyto specifické a rizikové zásahy.",
+        "id": 64
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Pokud je tlaková plynová láhev vystavena tepelným účinkům požáru, při jaké přibližné teplotě na povrchu obalu se acetylen podle bezpečnostních tabulek mění v akutní 'nebezpečí výbuchu'?",
+        "moznosti": [
+            "Nad +40 °C",
+            "Nad +65 °C",
+            "Nad +100 °C",
+            "Nad +250 °C"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Podle tabulek bezpečných teplot je u rozpuštěného plynu (acetylenu) kritická už teplota nad +65 °C, kdy začíná hrozit explozivní rozklad a výbuch, zatímco u zkapalněných plynů je to až kolem 100 °C.",
+        "id": 65
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "O jaké události na železnici musí zasahující hasiči vždy informovat výpravčího některé sousední železniční stanice pro zajištění vlastní bezpečnosti?",
+        "moznosti": [
+            "Při jakémkoliv zásahu odehrávajícím se v mezistaničním úseku na kolejích",
+            "Pouze když zjistí rozlité palivo na peronech osobních nádraží",
+            "Pokaždé když k odtažení techniky potřebují zapnout majáky u přejezdu",
+            "Při kácení stromu u trati, pokud nepadá přímo do kolejiště"
+        ],
+        "spravnaOdpoved": 0,
+        "vysvetleni": "Zásah v mezistaničním úseku znamená, že se hasiči pohybují na tzv. širé trati. K zastavení nebo omezení provozu (zajištění bezpečí) musí komunikovat právě s výpravčím sousední stanice.",
+        "id": 66
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Jaká nebezpečná situace, označovaná symbolem (původně lebkou se zkříženými hnáty, T/T+), je typická pro zásahy v chemických provozech a laboratořích a vede k poškození tkání a vnitřních orgánů?",
+        "moznosti": [
+            "Intoxikace (otrava)",
+            "Iniciace a plošné šíření mraku hořlavých prachů",
+            "Ionizující záření gama",
+            "Infekce biologickými agens stupně 4"
+        ],
+        "spravnaOdpoved": 0,
+        "vysvetleni": "U toxických látek se znakem lebky jde primárně o nebezpečí prudké otravy (intoxikace) ovlivňující zdraví vstřebáním přes plíce, sliznice, zažívací trakt nebo kůži.",
+        "id": 67
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Ve jakých nečekaných civilních objektech nebo předmětech mohou hasiči velmi pravděpodobně narazit na takzvaný 'osiřelý' nebo 'odložený' zdroj ionizujícího záření?",
+        "moznosti": [
+            "V moderních lithium-iontových autobateriích a solárních panelech",
+            "V hromadách železného šrotu, u starých defektoskopů nebo v historických hlásičích kouře",
+            "V televizorech s LCD obrazovkami a domácích mikrovlnných troubách",
+            "V klasických hasicích přístrojích s náplní oxidu uhličitého vyráběných do roku 1995"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Metodiky varují, že zářiče mimo stálá pracoviště se nejčastěji objevují jako úmyslně i neúmyslně odložené ve šrotu a z něj vyráběných výrobcích.",
+        "id": 68
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Jaká platí základní pravidla pro nastupování hasičů do zásahového vozidla při výjezdu ze stanice?",
+        "moznosti": [
+            "Mohou nastupovat za pomalé jízdy do 10 km/h, pokud se bezpečně drží madel",
+            "Nastupovat smějí do vozidla až mimo garáže stanice po zapnutí majáků",
+            "Zásadně nastupují pouze při úplném stání vozidla, nastupování za jízdy je přísně zakázáno",
+            "Nastupuje se postupně v přesném pořadí od nejnižší hodnosti po velitele vozu"
+        ],
+        "spravnaOdpoved": 2,
+        "vysvetleni": "Podle metodických pokynů pro nástup a jízdu k zásahu je přísně zakázáno nastupovat za jízdy, hasič nastupuje do vozidla vždy jen při jeho stání.",
+        "id": 69
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Jaká světla musí povinně svítit na požárním vozidle během jízdy k zásahu, pokud je zapnuto zvláštní výstražné zařízení modré barvy?",
+        "moznosti": [
+            "Pouze přední mlhová světla",
+            "Dálková světla doplněná předními stroboskopy",
+            "Potkávací a obrysová světla",
+            "Parkovací světla pro lepší viditelnost a odlišení majáků"
+        ],
+        "spravnaOdpoved": 2,
+        "vysvetleni": "Pravidla pro jízdu k zásahu vyžadují, že kromě zvláštního výstražného světla a zvuku musí současně povinně svítit potkávací a obrysová světla vozidla.",
+        "id": 70
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Může velitel jednotky během jízdy nařídit nepoužití modrých majáků a sirény?",
+        "moznosti": [
+            "Ne, použití výstražného zařízení je při výjezdu absolutně povinné bez výjimek",
+            "Ano, pokud velitel jednotky nestanoví jinak, použije se, ale má pravomoc to z taktických důvodů změnit",
+            "Ano, ale výhradně pouze na zpáteční neurgentní cestě od zásahu na základnu",
+            "Ne, toto může nařídit výhradně krajské operační středisko (KOPIS)"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Zvláštní výstražné zařízení se používá vždy, pokud ovšem velitel jednotky výslovně nestanoví jinak (například kvůli utajenému příjezdu u sebevrahů).",
+        "id": 71
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Kdy po dojezdu na místo události smí zasahující hasič vystoupit z kabiny požárního vozidla?",
+        "moznosti": [
+            "Okamžitě poté, co strojník zatažením za brzdu odfoukne vzduch",
+            "Až ve chvíli, kdy dostane výslovný pokyn k vystoupení od velitele jednotky",
+            "Automaticky ihned po příjezdu, aby se co nejrychleji zahájil bojový průzkum",
+            "Poté, co vystoupí strojník a otevře všechny vnější rolety s vybavením"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Vystupování z vozidla je z bezpečnostních důvodů (riziko sražení okolním provozem atd.) povoleno zásadně jen a pouze na pokyn velitele jednotky po zastavení stroje.",
+        "id": 72
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Jaký ochranný prvek si musí hasič obléci ještě před výstupem z vozidla, pokud zasahuje u dopravní nehody na frekventované pozemní komunikaci?",
+        "moznosti": [
+            "Těžký izolační dýchací přístroj",
+            "Protichemický ochranný oblek z důvodu úniku provozních kapalin",
+            "Ochrannou přilbu se staženým zlatým zorníkem",
+            "Výstražnou reflexní vestu"
+        ],
+        "spravnaOdpoved": 3,
+        "vysvetleni": "Metodika pro vystupování z vozidla přímo nařizuje, že u zásahů na pozemní komunikaci (typicky dopravní nehody) se musí ještě před výstupem obléci reflexní vesta pro zajištění viditelnosti.",
+        "id": 73
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Proč metodika zasahujícím hasičům zakazuje rychlé seskakování nebo vyskakování z kabiny vozidla na zem?",
+        "moznosti": [
+            "Kvůli hrozícímu zničení lakovaných nástupních stupaček moderních vozidel",
+            "Vlivem zátěže osobních ochranných prostředků a dýchací techniky reálně hrozí poškození páteře, kolen a kotníků",
+            "Protože při seskoku často dochází k samovolnému spuštění plicní automatiky",
+            "Je to neestetické a působí to neprofesionálně na okolostojící novináře a veřejnost"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Váha hasiče, znásobena váhou těžkých osobních ochranných prostředků a izolačního dýchacího přístroje, představuje při dopadu obrovskou rázovou sílu, která ničí klouby a páteř.",
+        "id": 74
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Co na místě mimořádné události označuje nebezpečný pojem 'krokové napětí'?",
+        "moznosti": [
+            "Napětí, které se kumuluje v hasičské obuvi při chůzi po gumovém izolačním koberci",
+            "Riziko vzniku elektrického oblouku při manipulaci s hydraulickým vyprošťovacím zařízením",
+            "Smrtelné nebezpečí v bezprostředním okolí spadlých drátů velmi vysokého napětí ležících na zemi",
+            "Indukované napětí, které vzniká rychlou chůzí po kovové střeše u hybridních vozidel"
+        ],
+        "spravnaOdpoved": 2,
+        "vysvetleni": "Krokové napětí vzniká průchodem proudu zemí ze spadlých drátů VVN. Mezi rozkročenýma nohama (krokem) hasiče vzniká rozdíl potenciálů, který může být smrtelný.",
+        "id": 75
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Může zasahující cisternová automobilová stříkačka (CAS) představovat riziko úrazu elektrickým proudem i tehdy, když není v kontaktu se žádným spadlým vodičem?",
+        "moznosti": [
+            "Ne, tlusté gumové pneumatiky odizolují vozidlo od země za všech okolností naprosto spolehlivě",
+            "Ano, při průjezdu silným elektromagnetickým polem může na obrovské karoserii vzniknout nebezpečné indukované napětí",
+            "Ano, ale pouze u starších vozidel s čistě hliníkovou nástavbou, nové plasty proud naštěstí nevodí",
+            "Ne, vozidla HZS mají z výroby integrované automatické permanentní uzemnění podvozku"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "V místech se silným elektromagnetickým polem (velké vysílače, blízkost trakčního vedení VVN) se na velkých kovových masách jako je nástavba CAS může reálně indukovat nebezpečné napětí.",
+        "id": 76
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Z jakých dvou základních částí se skládá 'Dokumentace zdolávání požáru' (DZP), kterou jednotky využívají pro orientaci v objektech?",
+        "moznosti": [
+            "Z požárního řádu pracoviště a z nástěnného evakuačního plánu budovy",
+            "Ze směrnice BOZP zřizovatele a havarijní karty KOPIS",
+            "Z operativního plánu zdolání požáru a z operativní karty zdolání požáru",
+            "Z povodňového plánu obce a z integrovaného havarijního plánu kraje"
+        ],
+        "spravnaOdpoved": 2,
+        "vysvetleni": "Podle legislativy PO tvoří Dokumentaci zdolávání požáru (vyžadovanou pro složité objekty) vždy operativní plán nebo jeho zjednodušená obdoba zvaná operativní karta.",
+        "id": 77
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Který ubytovací objekt je podle taktických kritérií automaticky řazen mezi budovy se 'složitými podmínkami pro zásah', a musí mít tedy zpracovánu DZP?",
+        "moznosti": [
+            "Každá ubytovna s více než 20 lůžky bez ohledu na počet podlaží a použité materiály",
+            "Ubytovací objekt o 7 a více nadzemních podlažích, který nedisponuje chráněnou únikovou cestou (CHÚC)",
+            "Běžný samostatně stojící obytný a rodinný dům pro 3 a více rodin",
+            "Nový hotel se 4 patry, který má funkční evakuační a chráněné výtahy"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Kritéria stanovují, že ubytování osob v objektech o 7 a více nadzemních podlažích (nebo 4 a více podzemních patrech) bez chráněné únikové cesty generují obrovské riziko a řadí se do složitých podmínek.",
+        "id": 78
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Co přesně popisuje parametr R-věty (Risk phrases) či GHS označení u nebezpečných chemických látek na místě havárie?",
+        "moznosti": [
+            "Popisují rizika a specifikují druh nebezpečí, které je spojené s manipulací s danou látkou",
+            "Udávají ideální ředící poměr látky s hasební vodou a těžkou pěnou",
+            "Jde o instrukce záchrany (Rescue) pro poskytování první pomoci zasaženému civilistovi",
+            "Značí procentuální úroveň radiační a ionizující kontaminace v zasažené vodě"
+        ],
+        "spravnaOdpoved": 0,
+        "vysvetleni": "Označení pomocí R-vět slouží jednoznačně k detailní identifikaci rizik. Informuje zasahujícího hasiče o specifické povaze nebezpečí chemikálie (např. toxický při vdechnutí).",
+        "id": 79
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Která životní událost je v psychologickém žebříčku stresu a zátěže (od T. H. Holmese a R. H. Raheho) pro člověka hodnocena vůbec tou nejvyšší mírou – celými 100 body?",
+        "moznosti": [
+            "Odsouzení a odpykávání tvrdého trestu ve vězení",
+            "Trvalá fyzická invalidita získaná následkem záchranných prací",
+            "Okamžitá a dlouhodobá ztráta letitého lukrativního zaměstnání",
+            "Úmrtí životního partnera"
+        ],
+        "spravnaOdpoved": 3,
+        "vysvetleni": "V rámci přípravy na stres se vyučuje tabulka životních událostí. Nejzávažnějším zásahem do lidské psychiky (se 100 body zátěže) je ztráta životního partnera.",
+        "id": 80
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Jaké historické mimořádné události posloužily u Hasičského záchranného sboru ČR jako velký zlom k zavedení plošné a moderní psychosociální pomoci?",
+        "moznosti": [
+            "Průmyslové havárie z chemických chemiček na Ústecku koncem 80. let",
+            "Rozsáhlé povodně, při nichž se ukázalo, že nestačí lidem pouze zachránit fyzický život, ale je nutné pečovat o jejich psychiku i duši záchranářů",
+            "Rozpad Sovětského svazu a zrušení tehdejších útvarů civilní obrany",
+            "Dopravní nehody na dálnici D1, po nichž pojišťovny začaly vyžadovat psychologické posudky pro výplaty zraněným"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "K nasazení psychologů HZS vedly právě zničující záplavy. Hasiči si při nich uvědomili obrovskou ztrátu celoživotních jistot obyvatel, stejně jako narůstající stopy traumatu u zasahujících kolegů.",
+        "id": 81
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Která z následujících zásad je uplatňována při jištění zasahujících hasičů na záchranném člunu jako obrana před rizikem utonutí?",
+        "moznosti": [
+            "V zájmu mobility zásadně nepoužívat těžká horolezecká lana, která by po nasáknutí vodou ztěžkla",
+            "Plavci na vodě nikdy nesmí mít z bezpečnostních důvodů oblečený svůj izolační dýchací přístroj",
+            "Musí se udržovat a garantovat nepřetržité radiové či signální spojení velitele zásahu na břehu s plavidlem",
+            "K záchraně na hladině je z taktických důvodů zakázáno nasazovat motorové čluny, hrozí kontakt s vrtulí"
+        ],
+        "spravnaOdpoved": 2,
+        "vysvetleni": "Ochrana před utonutím zahrnuje precizní jištění plavidel, jehož elementárním základem je udržování nepřetržitého spojení velitele břehu a zásahu přímo se zasahující lodí.",
+        "id": 82
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Jakou okolnost ohledně tlakových nádob v hořícím průmyslovém objektu musí velitel zásahu vždy nekompromisně promítnout do nasazení svých hasičů?",
+        "moznosti": [
+            "Směr nasazení sil musí reflektovat riziko letu poškozených armatur nebo utržených částí stěn lahve v případě přehřátí a exploze",
+            "Že k rychlé záchraně majetku je žádoucí k lahvi přistoupit co nejblíže a masivně ji ostříkávat štítovou proudnicí pro její lokální utlumení",
+            "Že se do ohniska nikdy nesmí stříkat voda, protože by narušené stěny nádoby zažily termický šok a tlak se tak prudce zvýšil",
+            "Že se uzavřená tlaková lahev o chladnou zem nemůže přehřát na nebezpečnou hodnotu dříve než za 60 minut od začátku požáru"
+        ],
+        "spravnaOdpoved": 0,
+        "vysvetleni": "U tlakových nádob plných plynu velitel vždy zvažuje zónu možného smrtelného ohrožení pro případ jejich exploze, a vybírá takový směr a úhel úkrytu, ze kterého jednotkám letící trosky nádoby a armatur neublíží.",
+        "id": 83
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Čeho se podle učebních osnov taktiky pro ochranu před zřícením konstrukcí musí hasiči bezpodmínečně vyvarovat uvnitř hořící budovy?",
+        "moznosti": [
+            "Úzkostlivému postupu po schodišti s držením u stěn mimo středovou volnou zónu",
+            "Nucenému větrání střešních plášťů, aby konstrukce neztratila svůj komínový tah",
+            "Nasazování těžké izolační techniky, která budově dodává kyslík z přebytečných masek",
+            "Zbytečnému srocování do velkých skupin na konstrukcích nad ohniskem s neznámou únosností"
+        ],
+        "spravnaOdpoved": 3,
+        "vysvetleni": "Skupina po zuby oblečených hasičů, soustředěná do jednoho bodu na zasaženém stropu, obrovsky lokálně zatíží narušenou konstrukci, což vede k jejímu plošnému propadnutí a tragédii.",
+        "id": 84
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Na jaký zrádný rizikový faktor, generovaný samotnou prací hasičů, musí velitel u déletrvajícího požáru dávat pozor, neboť urychluje pád střech a zdí?",
+        "moznosti": [
+            "Pokles tlaku a pnutí u hydrantové sítě venku",
+            "Nadměrné přetěžování střešních trámů a nosných podlah hromadící se hasební vodou a ledovou námrazou",
+            "Samovolné lokální odvětrání místností, které vyvolá vnitřní podtlak ničící nosné okenní překlady",
+            "Zvýšený podíl oxidu uhelnatého v místnosti, který sežere omítku až na cihlu"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Dlouhé nasazení vodních C-proudů vhání do budovy tuny vody, která se nasákne do koberců, podlah a stěn. Tento obrovský, uměle vzniklý hmotnostní přídavek (v zimě ve formě těžkého ledu) starý strop často už neudrží.",
+        "id": 85
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Po jak dlouhé době nepřetržitého fyzického boje s ohněm se podle taktických směrnic doporučuje plné vystřídání celých jednotek u dlouhotrvajícího zásahu?",
+        "moznosti": [
+            "Zpravidla po maximálně 2 hodinách těžké práce",
+            "Doporučuje se střídání po 6 až 8 hodinách od zahájení nepřetržitého nasazení sil",
+            "Střídání smí povolit velitel nejdříve po úspěšné lokalizaci a dohašování skrytých ohnisek",
+            "Maximální doba limitní práce hasiče ve stresu je zákonem daná na 24 hodin bez přestávky"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Směrnice o nebezpečí fyzického vyčerpání pro složité požáry doporučují velitelům organizovat strategické střídání zasahujících družstev obvykle po 6 až 8 hodinách nasazení.",
+        "id": 86
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Jaká kombinace se při extrémním vysílení hasiče u zásahu osvědčila jako spolehlivý zdroj okamžité krátkodobé energie k obnově sil?",
+        "moznosti": [
+            "Injekční aplikace adrenalinu do svalu zajištěná přítomným zdravotníkem záchranné služby",
+            "Kombinace solné tablety držené v puse se zředěným alkoholickým nealko-pivem",
+            "Teplé a syté jídlo typu guláše z polní kuchyně snědené přímo během nasazení u proudnice",
+            "Dodání dostatečného množství tekutin v kombinaci se sladkými pokrmy jako jsou tatranky nebo oplatky"
+        ],
+        "spravnaOdpoved": 3,
+        "vysvetleni": "V praxi se u vyčerpaných svalů (nedostatek glykogenu z extrémní zátěže) jednoznačně klade největší taktický důraz na masivní přísun tekutin a rychlých cukrů ve formě sladkých pamlsků.",
+        "id": 87
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Podle zákona o PO a vyhlášky má velitel zásahu významnou kompetenci pro nařízení nebezpečné výškové práce. Kdy přesně smí nařídit i takový postup, který nedodržuje stanovené technické podmínky pro výškovou požární techniku?",
+        "moznosti": [
+            "Velitel může normy nedodržet, pokud s tím všichni dotčení hasiči po seznámení dobrovolně a ústně souhlasí",
+            "Tuto výsadu nemá ani velitel, technické normy nosnosti lan jsou za všech okolností naprosto nepřekročitelné",
+            "Jestliže neexistuje jiná varianta a hrozí zcela bezprostřední nebezpečí z prodlení při záchraně života osob",
+            "Kdykoli, kdy zjevně hrozí, že oheň zničí majetek za více než jeden milion korun z rozpočtu obce"
+        ],
+        "spravnaOdpoved": 2,
+        "vysvetleni": "Ustanovení tzv. stavu krajní nouze z vyhlášky velí, že předepsané parametry techniky nebo limity jištění lze vědomě překročit jedině a výlučně za účelem záchrany právě ohroženého lidského života.",
+        "id": 88
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Podle nařízení vlády č. 172/2001 Sb. mají vyčerpaní a promrzlí hasiči nárok na to, aby jim velení IZS při dlouhotrvajících zimních zásazích nařídilo dovoz jídla a pití. Od které hodiny trvání mají nárok na teplé nápoje a teplou stravu?",
+        "moznosti": [
+            "Teplé nápoje po 1 hodině a studená strava po 3 hodinách",
+            "Pít se smí kdykoliv z proudnice, nárok na stravu vzniká teprve po 10 hodinách z úsporných důvodů státu",
+            "Nárok na teplý čaj po 2 hodinách a nárok na stravu vzniká po 4,5 hodinách od zahájení zásahu",
+            "Od operačního střediska si mohou objednat teplý nápoj po 5 hodinách práce na mrazu"
+        ],
+        "spravnaOdpoved": 2,
+        "vysvetleni": "V legislativní ochraně zdraví hasiče existují přesné hranice: pro ochranu před podchlazením zajistí velitel od 2. hodiny teplé nápoje a od uplynutí 4,5 hodiny i výdej plnohodnotné teplé stravy.",
+        "id": 89
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "I běžné hasicí přístroje mohou při nesprávném úchopu ublížit vlivem chladu a způsobit hasiči omrzliny rukou. Které hasivo takto působí?",
+        "moznosti": [
+            "Silný koncentrát smáčedla u klasických plnících přístrojů s tryskou",
+            "Expanze tekutého oxidu uhličitého v proudnici ze 'sněhového' hasicího přístroje",
+            "Pěnotvorná látka smíchaná se vzduchem v hadici pod vysokým tlakem z motorové pumpy",
+            "Halonové alternativy, které mrazí okolní kyslík ve vzduchu"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Tekutý oxid uhličitý CO2 má po opuštění obalu a přeměně na plyn tak obrovský deficit tepla, že proudnice a hadička dosahují mrazu -78 °C, a v případě chybného držení popálí kůži mrazem.",
+        "id": 90
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Za jakých meteorologických podmínek u zimních požárů by se velitelé zásahu měli obzvláště snažit operovat hadicemi s rozptýleným nebo kompaktním proudem obezřetně a nasazovat síly z návětrné strany?",
+        "moznosti": [
+            "Když je slunce a vlhkost vzduchu je nižší než 30 % kvůli odpařování potu na uniformách",
+            "Za silného mrazu a proti větru, kdy hrozí, že hasební voda odstřikující z překážek okamžitě nadměrně promáčí nebo zmrazí zásahový oděv hasičů",
+            "Za jasných chladných nocí bez větru, aby hasičům nepřimrzly masky a filtry dýchacích přístrojů",
+            "Když je mlha a teplota přesně na nule stupňů Celsia"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Prvním krokem proti kritickému podchlazení těl a omrznutí kloubů zasahujících je logická taktika, aby vítr neodnášel mrznoucí vodní tříšť z útočných proudů z ohniska zpět přímo na hasiče, čímž by promokli a ihned by promrzli.",
+        "id": 91
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Jaká ochranná pomůcka, patřící do základní výbavy mnoha cisteren, se u hasičů často skvěle používá jako lokální štít a obrana proti obrovskému sálavému žáru, hrozícímu jim těžkým popálením z plamenů?",
+        "moznosti": [
+            "Nasazení vodní mlhové clony (často přes specielní plochou či clonovou proudnici položenou na zem)",
+            "Aplikace obrovského koberce z těžké smáčecí pěny do bezprostředního okolí bot zasahujících",
+            "Postavení mobilních stěn z těžkých azbestových dek, které se poskládají za sebe",
+            "Speciální pohlcovače radiace integrované do vnějšího materiálu moderních hadic"
+        ],
+        "spravnaOdpoved": 0,
+        "vysvetleni": "Kombinace taktického odvětrání kouře a zejména štítových vodních clon, oddělujících ohnisko sálající stometrové roury od obsluhujících hasičů, velmi výrazně sráží tepelnou hranici popálení u průmyslových ohňů.",
+        "id": 92
+    },
+    {
+        "kategorie": "taktika",
+        "otazka": "Co kromě odvozu mimo mráz doporučují logistická a metodická pravidla jako zásadní prvek ochrany zdraví a tepla pro hasiče po jejich rotaci a stažení z boje s plameny (aby se zabránilo podchlazení)?",
+        "moznosti": [
+            "Rychlý 5km dlouhý kondiční běh pro zahřátí nohou ztuhlých zimou",
+            "Okamžité podání silných analgetik pro utlumení pocitu bolesti a mrazu od zdravotníků ZZS",
+            "Zabezpečení teplých, uzavřených a vytápěných místností (případně aspoň týlový kontejner HZS s nezávislým bufetem), kde se mokří hasiči mohou v suchu převléci a oschnout",
+            "Spaní vsedě v nastartované Tatře se zapnutou klimatizací a puštěným fukarem na studený vzduch pro otužování"
+        ],
+        "spravnaOdpoved": 2,
+        "vysvetleni": "U déle trvajících událostí je naprostým standardem vybudovat ohřívárnu (např. nafukovací stan s přímotopem, přistavený autobus nebo týlový kontejner ze stanice). Dlouhý pobyt propoceného a promrzlého roje z venku bez výměny oblečení ve stálém teple je vstupenkou k fatální hypotermii.",
+        "id": 93
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Které organizační části tvoří Hasičský záchranný sbor ČR (HZS ČR)?",
+        "moznosti": [
+            "Jen krajská ředitelství a stanice v obcích",
+            "GŘ HZS ČR, hasičské záchranné sbory krajů, Záchranný útvar a odborné školy PO",
+            "Ministerstvo vnitra a dobrovolní hasiči",
+            "Pouze generální ředitelství a výzkumný ústav"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Podle zákona tvoří HZS ČR Generální ředitelství, krajské sbory se stanicemi, specializovaný Záchranný útvar a vzdělávací zařízení.",
+        "id": 94
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Jaká je věková hranice pro členy jednotek SDH obcí a jaký musí být jejich zdravotní stav?",
+        "moznosti": [
+            "Věk nad 15 let a dobrá kondice",
+            "Věk nad 18 let a musí být zdravotně způsobilí",
+            "Libovolný věk, pokud souhlasí zákonný zástupce",
+            "Věk od 21 let a bezúhonnost"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Členem jednotky sboru dobrovolných hasičů obce může být pouze osoba starší 18 let, která prošla lékařskou prohlídkou potvrzující zdravotní způsobilost.",
+        "id": 95
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Co zahrnuje odborná připravenost jednotky požární ochrany?",
+        "moznosti": [
+            "Znalost historie sboru a ocenění",
+            "Teoretické znalosti a praktické dovednosti hasičů získané v odborné přípravě",
+            "Vlastnictví řidičského průkazu u všech členů",
+            "Schopnost vybrat nejlevnější techniku"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Odborná připravenost je jednou ze tří složek akceschopnosti a zahrnuje vědomosti a dovednosti nutné pro efektivní a bezpečný zásah.",
+        "id": 96
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Kdy je jednotka sboru dobrovolných hasičů obce vybavována výškovou technikou (žebřík nebo plošina)?",
+        "moznosti": [
+            "Vždy, když má obec více než 1000 obyvatel",
+            "Pokud to odůvodňuje požární nebezpečí území nebo havarijní plán kraje",
+            "Jen pokud na to obec dostane dotaci",
+            "Pokud má jednotka více než 24 členů"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Vybavení výškovou technikou není automatické, ale vychází z analýzy rizik v daném území a dokumentace plošného pokrytí.",
+        "id": 97
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "O kolik může být zvýšeno vybavení jednotky PO nad rámec minimálních limitů uvedených v tabulkách?",
+        "moznosti": [
+            "O libovolné množství",
+            "Maximálně o 10 %",
+            "Až na 1,5 násobek limitů uvedených v tabulce",
+            "Vybavení se nesmí nikdy zvyšovat"
+        ],
+        "spravnaOdpoved": 2,
+        "vysvetleni": "Předpisy umožňují navýšit vybavení až na 1,5 násobek minima, pokud je to odůvodněno specifickými riziky v zásahovém obvodu.",
+        "id": 98
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Které speciální služby se v jednotkách PO zřizují k zabezpečení akceschopnosti techniky?",
+        "moznosti": [
+            "Zdravotní, psychologická a právní",
+            "Strojní, chemická, technická, spojová a informační",
+            "Pořádková, strážní a vyšetřovací",
+            "Logistická a tisková"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Tyto speciální služby zajišťují odbornou péči o konkrétní druhy výbavy, od radiostanic přes dýchací přístroje až po zásahové vozy.",
+        "id": 99
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Kolik částí má Bojový řád jednotek PO upravující postupy při zásahu?",
+        "moznosti": [
+            "Dvě části",
+            "Pět částí",
+            "Osm částí",
+            "Dvanáct částí"
+        ],
+        "spravnaOdpoved": 2,
+        "vysvetleni": "Bojový řád se dělí na 8 částí, které pokrývají oblasti jako obecné zásady, nebezpečí, řízení, požární zásah, součinnost, technický zásah, nebezpečné látky a dopravní nehody.",
+        "id": 100
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Jaká je základní povinnost hasiče ohledně radioprovozu na místě zásahu?",
+        "moznosti": [
+            "Mluvit co nejvíce, aby bylo slyšet, že pracuje",
+            "Dodržovat pravidla spojení v souladu s Řádem spojové služby",
+            "Používat radiostanici pouze pro soukromé hovory",
+            "Vypnout radiostanici, aby šetřil baterii"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Radioprovoz musí být ukázněný a věcný, aby nedocházelo k zahlcení kanálu a byla zajištěna slyšitelnost důležitých rozkazů.",
+        "id": 101
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Jak musí hasič naložit se zprávou, kterou obdrží k odeslání radiostanicí?",
+        "moznosti": [
+            "Může ji libovolně zkrátit podle uvážení",
+            "Nesmí ji nijak textově ani formulačně upravovat",
+            "Má ji přeložit do spisovné češtiny",
+            "Má ji odeslat pouze tehdy, pokud s ní souhlasí"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Radista nesmí měnit obsah ani formu zprávy, aby nedošlo k dezinterpretaci příkazu nebo informace od velitele.",
+        "id": 102
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Kdo může ukončit radiové spojení?",
+        "moznosti": [
+            "Kterákoliv stanice, když už nemá co říct",
+            "Stanice, která spojení navázala, nebo řídící stanice",
+            "Pouze operační středisko",
+            "Pouze velitel jednotky SDH"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Pravidlo ukončení spojení zaručuje, že volající strana nebo nadřízený potvrdí, že přenos informace byl kompletní.",
+        "id": 103
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Co je to organizační řízení v rámci výkonu služby v jednotce?",
+        "moznosti": [
+            "Samotný zásah u požáru",
+            "Činnost k dosažení stálé připravenosti sil a prostředků (údržba, výcvik, administrativa)",
+            "Pravidelné schůze sboru dobrovolných hasičů",
+            "Řízení dopravy na místě nehody"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Organizační řízení zahrnuje vše, co se děje na zbrojnici 'v klidu', aby byla jednotka schopna kdykoliv vyjet k zásahu.",
+        "id": 104
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Který dokument stanovuje podmínky požární bezpečnosti u právnických osob a určuje druhy dokumentace PO?",
+        "moznosti": [
+            "Zákon o ochraně přírody",
+            "Vyhláška o požární prevenci",
+            "Havarijní řád obce",
+            "Stavební zákon"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Vyhláška o požární prevenci detailně určuje, jaké dokumenty (např. Požární řád) musí mít firmy zpracovány a jak mají provádět kontroly.",
+        "id": 105
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Co obsahuje Řád ohlašovny požárů?",
+        "moznosti": [
+            "Seznam všech obyvatel obce",
+            "Způsob přijímání hlášení o požáru a způsob vyhlášení poplachu v jednotce",
+            "Návod na použití telefonu",
+            "Seznam techniky v kraji"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Tento řád je klíčový pro zajištění rychlého předání informace o požáru z místa ohlášení přímo k zasahujícím hasičům.",
+        "id": 106
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Jak se v rámci IZS nazývá stav, kdy se vyhlásí potřeba nasazení sil v závislosti na rozsahu mimořádné události?",
+        "moznosti": [
+            "Stupeň pohotovosti",
+            "Stupeň poplachu",
+            "Kategorie zásahu",
+            "Zóna ohrožení"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Stupně poplachu (I. až IV.) určují množství a druhy povolaných sil a prostředků podle závažnosti situace.",
+        "id": 107
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Který stupeň poplachu je označen jako 'zvláštní' a je nejvyšším stupněm?",
+        "moznosti": [
+            "I. stupeň",
+            "II. stupeň",
+            "III. stupeň",
+            "IV. stupeň"
+        ],
+        "spravnaOdpoved": 3,
+        "vysvetleni": "IV. (zvláštní) stupeň poplachu se vyhlašuje u událostí velkého rozsahu, které ohrožují celé kraje nebo vyžadují pomoc z jiných regionů.",
+        "id": 108
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Co jsou to typové činnosti složek IZS při společném zásahu?",
+        "moznosti": [
+            "Jednotné uniformy pro všechny",
+            "Katalog postupů pro konkrétní druhy událostí (např. letecká nehoda, nález výbušniny)",
+            "Seznam telefonních čísel",
+            "Typy používaných aut"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Typové činnosti (např. STČ-08 pro dopravní nehody) sjednocují postup hasičů, policistů a záchranářů u specifických typů nehod.",
+        "id": 109
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Kdo je oprávněn nařídit osobám opustit místo zásahu nebo strpět jiná omezení?",
+        "moznosti": [
+            "Kterýkoliv občan",
+            "Velitelé jednotek PO a velitelé zásahů",
+            "Pouze starosta obce",
+            "Majitel pozemku"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Velitelé mají ze zákona pravomoc omezit pohyb osob na místě zásahu, aby zajistili bezpečnost a prostor pro záchranné práce.",
+        "id": 110
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Jaký dojezdový čas musí splnit 2. jednotka PO v území se stupněm nebezpečí 'II B'?",
+        "moznosti": [
+            "Do 10 minut",
+            "Do 15 minut",
+            "Do 20 minut",
+            "Do 25 minut"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Podle tabulky plošného pokrytí musí v kategorii II B dorazit první jednotka do 10 min a další dvě jednotky do 15 min.",
+        "id": 111
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Kdo definuje stupně nebezpečí všech obcí na území kraje?",
+        "moznosti": [
+            "Každá obec sama pro sebe",
+            "Nařízení kraje o plošném pokrytí",
+            "Ministerstvo vnitra plošně pro celou ČR",
+            "Pojišťovny podle počtu pojistných událostí"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Kraj vydává nařízení, ve kterém určí rizikovost každého katastru, což je určující pro rozmístění a kategorii jednotek.",
+        "id": 112
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Co se rozumí pod pojmem 'předurčenost' jednotky PO?",
+        "moznosti": [
+            "Že jednotka už předem ví, kdy bude hořet",
+            "Stanovení jednotky k provádění speciálních prací u specifických událostí",
+            "Povinnost hasit jen v jedné ulici",
+            "Právo přednostní jízdy pro všechna vozidla sboru"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Předurčené jednotky jsou ty, které mají speciální výcvik a vybavení (např. pro vyprošťování u nehod nebo zásahy na nebezpečné látky).",
+        "id": 113
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Jaké je složení družstva o zmenšeném početním stavu?",
+        "moznosti": [
+            "1 velitel + 5 hasičů",
+            "1 velitel + 1 strojník + 2 hasiči",
+            "1 velitel + 8 hasičů",
+            "Pouze 2 hasiči v civilním voze"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Sestava 1+1+2 (celkem 4 osoby) je minimální personální složení pro uznání výjezdu družstva k zásahu.",
+        "id": 114
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Jaká je hlavní odpovědnost velitele jednotky v rámci operačního řízení?",
+        "moznosti": [
+            "Vedení docházky na schůze",
+            "Velení jednotce při zásahu a rozhodování o prioritách a způsobu záchrany",
+            "Oprava prasklých hadic",
+            "Nábor nových členů"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "V operačním řízení (u zásahu) velitel odpovídá za taktiku, bezpečnost hasičů a efektivitu nasazených sil.",
+        "id": 115
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Která speciální služba má na starosti péči o dýchací techniku a detekční přístroje?",
+        "moznosti": [
+            "Strojní služba",
+            "Chemická služba",
+            "Technická služba",
+            "Spojová služba"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Chemická služba zajišťuje provozuschopnost prostředků pro ochranu dýchacích cest a práci v zamořeném prostředí.",
+        "id": 116
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Co spadá do kompetence technické služby v jednotce?",
+        "moznosti": [
+            "Oprava motorů stříkaček",
+            "Péče o hasiva, hadice, žebříky a vyprošťovací zařízení bez motoru",
+            "Správa počítačové sítě na zbrojnici",
+            "Doplňování paliva do cisteren"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Technická služba se stará o mechanické věcné prostředky, lana, žebříky a všechno 'nehnané' vybavení.",
+        "id": 117
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Jaká je maximální délka vlasů hasiče z hlediska bezpečnosti?",
+        "moznosti": [
+            "Není nijak omezena",
+            "V obličejové části po obočí, nepřesahující ušní boltce a na krku po límec košile",
+            "Hasič musí být zcela ostříhán dohola",
+            "Vlasy nesmí být delší než 2 centimetry"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Délka vlasů je omezena proto, aby vlasy nepřekážely v těsnicí linii masky dýchacího přístroje nebo pod přilbou.",
+        "id": 118
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Proč je u nositelů dýchací techniky vyžadována hladce oholená tvář?",
+        "moznosti": [
+            "Z estetických důvodů",
+            "Aby byla zajištěna těsnost masky dýchacího přístroje na obličej",
+            "Aby hasič vypadal profesionálně před médii",
+            "Předpisy to nevyžadují, je to jen doporučení"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Vousy v místě kontaktu masky s kůží způsobují únik vzduchu z přístroje a průnik toxických zplodin k hasiči.",
+        "id": 119
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Jaká je vstupní podmínka pro absolvování odborné přípravy pro funkci strojník?",
+        "moznosti": [
+            "Věk minimálně 18 let",
+            "Věk minimálně 21 let a držení příslušné skupiny řidičského oprávnění",
+            "Členství ve sboru alespoň 10 let",
+            "Úspěšné složení maturitní zkoušky"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Kvůli náročnosti řízení těžké techniky a obsluhy čerpadel je pro funkci strojníka zákonem stanoven věk 21 let.",
+        "id": 120
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Kdy musí hasič určený k řízení vozidel absolvovat kondiční jízdu?",
+        "moznosti": [
+            "Jednou za rok při technické kontrole vozidla",
+            "Pokud v průběhu 4 týdnů neřídil požární automobil určený pro výjezd",
+            "Jen pokud o to sám požádá",
+            "Každý týden bez ohledu na počet výjezdů"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Kondiční jízda o délce min. 10 km slouží k udržení řidičských návyků u velkých zásahových vozidel.",
+        "id": 121
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Co zahrnuje termín 'zásahový obvod'?",
+        "moznosti": [
+            "Vzdálenost 50 km od zbrojnice",
+            "Katastrální území zřizovatele jednotky (obec nebo podnik)",
+            "Pouze budovu hasičské zbrojnice",
+            "Cesty k nejbližším hydrantům"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Zásahový obvod je primární území, za které jednotka odpovídá a kde se musí nejlépe orientovat.",
+        "id": 122
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Jaké informace je nejdůležitější získat od oznamovatele události?",
+        "moznosti": [
+            "Jen jeho jméno a datum narození",
+            "Adresu, druh události, bližší údaje o ohrožení osob a nejvhodnější příjezdovou trasu",
+            "Barvu hořícího objektu",
+            "Číslo jeho pojistky"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Tyto údaje umožňují veliteli správně rozhodnout o síle jednotky a nejrychlejší cestě na místo zásahu.",
+        "id": 123
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Které body v obci a terénu slouží jako dobré orientační body?",
+        "moznosti": [
+            "Pouze lavičky v parku",
+            "Kostely, hřbitovy, průmyslové objekty, věže, nádraží nebo benzinové stanice",
+            "Každý druhý strom u silnice",
+            "Orientační body se v mapách nepoužívají"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Výrazné a stálé objekty pomáhají hasičům rychle lokalizovat místo zásahu i bez funkční GPS navigace.",
+        "id": 124
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Proč je nutné znát v zásahovém obvodu parametry mostů a tunelů?",
+        "moznosti": [
+            "Aby hasiči věděli, kde se schovat před deštěm",
+            "Kvůli technicko-taktickým parametrům (výška, nosnost) mobilní techniky",
+            "Kvůli kontrole čistoty komunikací",
+            "Předpisy to nevyžadují"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Hasičská auta jsou vysoká a těžká. Znalost nosnosti mostů a výšky tunelů zabraňuje uvíznutí nebo poškození techniky.",
+        "id": 125
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Které zdroje vody by měl hasič v zásahovém obvodu znát?",
+        "moznosti": [
+            "Jen balenou vodu v autě",
+            "Hydrantovou síť, požární nádrže, rybníky a místa na vodních tocích vhodná pro čerpání",
+            "Pouze studny na soukromých pozemcích",
+            "Hasiči nepotřebují znát zdroje vody předem"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Znalost dostupných zdrojů vody je klíčová pro plynulé doplňování cisteren při hašení velkých požárů.",
+        "id": 126
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Kde lze čerpat podrobné informace o místních podmínkách v zásahovém obvodu?",
+        "moznosti": [
+            "V denním tisku",
+            "V dokumentaci PO obce/podniku (např. Požární řád obce nebo DZP objektu)",
+            "Jen u starosty obce",
+            "Z doslechu od místních obyvatel"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Zpracovaná dokumentace obsahuje přesné údaje o zdrojích vody, ohlašovnách požárů i nebezpečných místech v obci.",
+        "id": 127
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Co obsahuje vyjímatelná příloha operativního plánu DZP určená pro jednotky PO?",
+        "moznosti": [
+            "Seznam zaměstnanců podniku",
+            "Textovou část s charakteristikou objektu a grafickou část s plánem a rozmístěním zdrojů vody",
+            "Fotogalerii z výstavby objektu",
+            "Ceník vyráběného zboží"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Operativní plán poskytuje veliteli zásahu přehlednou mapu a instrukce pro zásah v konkrétním složitém objektu.",
+        "id": 128
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Jaký je hlavní přínos mapového portálu HZS ČR (http://gis.izscr.cz) pro jednotky?",
+        "moznosti": [
+            "Možnost hrát hry na mapě",
+            "Zobrazuje stejná podkladová data jako na operačním středisku",
+            "Slouží k rezervaci dovolené",
+            "Umožňuje sledovat polohu civilních letadel"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Sjednocení mapových podkladů zajišťuje, že zasahující jednotky i operační důstojník vidí stejné informace o terénu a objektech.",
+        "id": 129
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Co je nejdůležitější pro zvládnutí orientace v zásahovém obvodu?",
+        "moznosti": [
+            "Mít nejmodernější mobilní telefon",
+            "Konkrétní praktická znalost dostupných informací a jejich aplikace v terénu",
+            "Dobrá paměť na jména ulic",
+            "Vždy se ptát kolemjdoucích na cestu"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Žádná mapa nenahradí osobní znalost terénu získanou pravidelným projížděním obvodu a ověřováním informací v praxi.",
+        "id": 130
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Které objekty v obci mohou ohrožovat okolí nebo ztěžovat zásah?",
+        "moznosti": [
+            "Pouze rodinné domy",
+            "Čerpací stanice, muniční sklady, lomy, kotelny nebo velkochovy dobytka",
+            "Jen dětská hřiště",
+            "Zahrady s nízkým plotem"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Hasiči musí znát riziková místa, kde hrozí výbuch, únik chemikálií nebo kde je obtížná evakuace velkého množství zvířat.",
+        "id": 131
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Jaká je minimální frekvence ověřování zdravotní způsobilosti hasiče?",
+        "moznosti": [
+            "Jednou za 5 let",
+            "Nejméně jednou ročně v rámci preventivní lékařské prohlídky",
+            "Jen před vstupem do jednotky",
+            "Každých 10 let spolu s výměnou občanského průkazu"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Náročnost hasičské služby vyžaduje pravidelnou kontrolu zdravotního stavu k zajištění bezpečnosti samotného hasiče i jeho kolegů.",
+        "id": 132
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Co se stane, pokud hasič neprojde pravidelnou odbornou přípravou?",
+        "moznosti": [
+            "Nic, odborná příprava je dobrovolná",
+            "Může ztratit odbornou způsobilost k výkonu funkce",
+            "Bude mu snížen plat o polovinu",
+            "Musí vrátit zásahový oděv"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Pravidelný výcvik je povinný. Bez něj hasič ztrácí oprávnění samostatně vykonávat službu nebo zastávat odborné funkce.",
+        "id": 133
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Kdo koordinuje postup složek IZS na místě mimořádné události?",
+        "moznosti": [
+            "Nejstarší policista",
+            "Velitel zásahu (zpravidla příslušník HZS ČR)",
+            "Starosta nejbližší obce",
+            "Majitel poškozeného majetku"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "V rámci IZS má velitel zásahu ze zákona pravomoc koordinovat všechny složky (hasiče, policii, záchranáře) k efektivní likvidaci události.",
+        "id": 134
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Jaký je význam signálu 'HÓ-ŘÍ' u elektronických sirén?",
+        "moznosti": [
+            "Oznámení konce cvičení",
+            "Svolání členů jednotky požární ochrany k výjezdu (požární poplach)",
+            "Varování před povodní",
+            "Upozornění na zkoušku sirén"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Tento specifický zvukový signál slouží k rychlému svolání dobrovolných hasičů na zbrojnici k výjezdu.",
+        "id": 135
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Může se do zásahu zapojit osoba poskytující osobní pomoc?",
+        "moznosti": [
+            "Ne, je to zakázáno",
+            "Ano, velitel zásahu ji může začlenit do jednotky pod odborným dohledem",
+            "Ano, ale musí si přinést vlastní nářadí",
+            "Jen pokud má hasičský průkaz"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Zákon umožňuje využití občanů pro pomocné práce, ale musí být vybaveni ochrannými prostředky a pracovat pod dozorem zkušeného hasiče.",
+        "id": 136
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Jaká je základní povinnost velitele jednotky při organizačním řízení?",
+        "moznosti": [
+            "Zodpovídá za akceschopnost jednotky a vede evidenci o její činnosti",
+            "Provádí represi u požáru",
+            "Uklízí hasičskou zbrojnici",
+            "Kontroluje řidičské průkazy kolemjdoucích"
+        ],
+        "spravnaOdpoved": 0,
+        "vysvetleni": "V organizačním řízení velitel zajišťuje, aby jednotka byla papírově i technicky v pořádku pro případný výjezd.",
+        "id": 137
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Co musí hasič udělat před použitím požární techniky nebo věcných prostředků?",
+        "moznosti": [
+            "Nic, technika musí fungovat vždy",
+            "Provést kontrolu provozuschopnosti",
+            "Zeptat se kolegy, zda technika funguje",
+            "Přečíst si celou příručku k obsluze"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Každý prostředek musí být před použitím (i po něm) zkontrolován, aby byla zaručena bezpečnost hasiče i úspěch zásahu.",
+        "id": 138
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Které signály se používají pro dodávku vody při technickém výcviku?",
+        "moznosti": [
+            "Jen pískání na píšťalku",
+            "Slovní, optické a signály lanem",
+            "Signály kouřem",
+            "Žádné, používá se jen mobilní telefon"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Kvůli hluku techniky a vzdálenosti mezi rozdělovačem a strojem jsou standardizované signály (např. rukou) nezbytné.",
+        "id": 139
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Co znamená optický signál 'VPŘED! VODU!'?",
+        "moznosti": [
+            "Mávání rukou nad hlavou",
+            "Skrčenou paži několikrát vzpažit vzhůru do výše hlavy",
+            "Paže rozpažené do stran",
+            "Ruka položená na rameni"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Tento signál hasič dává strojníkovi, aby věděl, že má otevřít ventil a začít dodávat vodu do hadicového vedení.",
+        "id": 140
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Jak se signalizuje žádost o zvýšení tlaku vody lanem?",
+        "moznosti": [
+            "Uvázáním uzlu na laně",
+            "Opakováním signálu VODU! (jedno trhnutí) v rozmezí 10-15 vteřin",
+            "Rychlým kmitáním lanem",
+            "Puštěním lana na zem"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Opakované jedno trhnutí je srozumitelným požadavkem pro strojníka, aby zvýšil výkon čerpadla.",
+        "id": 141
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Co je to 'místní působnost' u jednotek PO?",
+        "moznosti": [
+            "Právo zasahovat kdekoliv v ČR",
+            "Jednotka zasahuje primárně na území svého zřizovatele (katastr obce/podniku)",
+            "Právo jezdit bez majáků",
+            "Povinnost hasit jen ve své vlastní zahradě"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Jednotky s místní působností (JPO V, VI, IV) jsou určeny k ochraně vlastního území a do jiných obcí vyjíždějí jen výjimečně.",
+        "id": 142
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Jaká je základní role operačního střediska HZS kraje?",
+        "moznosti": [
+            "Sledování počasí pro zemědělce",
+            "Příjem tísňových volání, vyhlašování poplachu a koordinace sil a prostředků",
+            "Prodej hasicích přístrojů",
+            "Výroba zásahových oděvů"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Operační středisko (KOPIS) je mozkem systému, který vysílá jednotky na místo zásahu podle platných poplachových plánů.",
+        "id": 143
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Co tvoří personální základnu jednotky SDH obce?",
+        "moznosti": [
+            "Jen profesionální vojáci",
+            "Členové sboru dobrovolných hasičů obce a osoby vykonávající službu jako zaměstnání",
+            "Pouze důchodci v obci",
+            "Všichni obyvatelé obce nad 18 let automaticky"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Jednotka je tvořena dobrovolníky, kteří se zavázali k činnosti v jednotce, a v některých případech i placenými hasiči.",
+        "id": 144
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Kdo je oprávněn jmenovat velitele družstva v jednotce SDH obce?",
+        "moznosti": [
+            "Starosta obce",
+            "Velitel jednotky",
+            "Hejtman kraje",
+            "Členové družstva hlasováním"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Velitel jednotky si vybírá své nejbližší spolupracovníky, tedy velitele družstev, kterým deleguje velení částem jednotky.",
+        "id": 145
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Co spadá pod 'věcnou pomoc' při zdolávání požáru?",
+        "moznosti": [
+            "Poskytnutí rady hasičům",
+            "Poskytnutí dopravních prostředků, zdrojů vody nebo techniky na výzvu velitele zásahu",
+            "Fyzická práce u požáru",
+            "Darování peněz sboru"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Věcná pomoc je povinnost právnických i fyzických osob poskytnout svůj majetek k řešení mimořádné situace, je-li k tomu vyzván.",
+        "id": 146
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Které osoby jsou osvobozeny od povinnosti poskytnout osobní pomoc?",
+        "moznosti": [
+            "Všichni bohatí lidé",
+            "Osoby s vážnou nemocí, invalidé nebo ti, kterým brání důležitá okolnost",
+            "Lidé, kteří nemají rádi hasiče",
+            "Obyvatelé jiných obcí"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Zákon počítá s výjimkami pro ty, kteří by poskytnutím pomoci ohrozili své zdraví nebo péči o blízkou osobu.",
+        "id": 147
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Co je primárním posláním HZS ČR?",
+        "moznosti": [
+            "Pořádání plesů a zábav",
+            "Chránit životy a zdraví obyvatel a majetek před požáry a mimořádnými událostmi",
+            "Dohlížet na dodržování dopravních předpisů",
+            "Opravovat obecní silnice"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Základní poslání profesionálních hasičů je definováno zákonem č. 238/2000 Sb. o Hasičském záchranném sboru.",
+        "id": 148
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Která složka IZS zabezpečuje varování obyvatelstva při nebezpečí?",
+        "moznosti": [
+            "Zdravotnická záchranná služba",
+            "Hasičský záchranný sbor ČR (operační střediska)",
+            "Policie ČR",
+            "Česká televize"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Operační střediska HZS mají technické prostředky pro dálkové spouštění sirén a vysílání varovných hlášení.",
+        "id": 149
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Jaký je význam barevného označení vozidel jednotek PO?",
+        "moznosti": [
+            "Je to jen věc tradice",
+            "Slouží k rychlé identifikaci zásahových vozidel a zvýšení bezpečnosti v silničním provozu",
+            "Aby auta byla v trávě lépe vidět",
+            "Barva se určuje podle oblíbené barvy velitele"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Zákon zakazuje nepovolaným osobám používat barevné značení typické pro jednotky PO, aby nedocházelo k záměně s vozidly s právem přednostní jízdy.",
+        "id": 150
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Co je to 'operativní karta' v rámci dokumentace zdolávání požárů?",
+        "moznosti": [
+            "Platební karta na nákup nafty",
+            "Zjednodušená forma dokumentace pro objekty s méně složitými podmínkami",
+            "Seznam telefonních čísel na hasiče",
+            "Slevová karta pro členy sboru"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Operativní karta obsahuje jen nejdůležitější textové a grafické údaje potřebné k rychlému zásahu v daném objektu.",
+        "id": 151
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Která služba v jednotce pečuje o radiostanice a telefony?",
+        "moznosti": [
+            "Technická služba",
+            "Spojová služba",
+            "Strojní služba",
+            "Informační služba"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Spojová služba zajišťuje, aby fungovala veškerá komunikační technika mezi hasiči a operačním střediskem.",
+        "id": 152
+    },
+    {
+        "kategorie": "organizace",
+        "otazka": "Může velitel zásahu odvolat hasiče, který neplní své úkoly?",
+        "moznosti": [
+            "Ne, hasič je v jednotce dobrovolně",
+            "Ano, a současně může určit jeho nástupce",
+            "Jen se souhlasem starosty obce",
+            "Pouze po skončení zásahu písemně"
+        ],
+        "spravnaOdpoved": 1,
+        "vysvetleni": "Pro bezpečnost zásahu je nezbytné, aby všichni plnili rozkazy. Pokud někdo není schopen úkol splnit, musí být pro ochranu ostatních odvolán.",
+        "id": 153
+    }
+]

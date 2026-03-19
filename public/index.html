@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Školení hasičů | SDH Borotín</title>
+    <!-- Použití Google Fonts (jako na moderních webech) -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Horní hlavička - inspirována modrou a zlatou barvou praporu -->
+    <header class="main-header">
+        <div class="container header-container">
+            <div class="logo-area">
+                <!-- Znak SH ČMS je uloženo lokálně vedle index.html jako znak.png -->
+                <img src="znak.png" alt="Znak hasičů" class="logo">
+                <h1>Školení hasičů<br><small>Zásahová jednotka SDH Borotín - Otestujte své znalosti</small></h1>
+            </div>
+            
+            <div class="user-area" id="userArea">
+                <!-- Zde se přes JavaScript vloží buď tlačítko přihlášení, nebo jméno uživatele -->
+                <button class="btn btn-outline" onclick="zobrazAplikaci('loginContainer')">Vstoupit do testování</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hlavní obsahová část -->
+    <main class="container main-content">
+        
+        <!-- Sekce 1: Úvodní obrazovka -->
+        <section id="uvodContainer" class="card active-section">
+            <h2 style="color: var(--primary-color);">Vítejte v testovacím systému</h2>
+            <p>Tento portál prověří vaše odborné znalosti a teoretickou přípravu v oblasti požární ochrany. Ať už se připravujete na zkoušky nebo si jen chcete osvěžit důležitá pravidla pro praxi, jste na správném místě. Přihlaste se pro přístup k testům a sledování svých časů a výsledků.</p>
+            
+            <div style="text-align: center; margin: 20px 0;">
+                <img src="https://www.sdhborotin.cz/data/obrazky/prapor-lic.jpg" alt="Prapor SDH Borotín" class="prapor-img">
+            </div>
+
+            <div class="action-buttons" style="text-align: center;">
+                <button id="hlavniAkcniTlacitko" class="btn btn-primary" onclick="zobrazAplikaci('loginContainer')">Přejít k přihlášení a testu</button>
+                <button class="btn btn-secondary" onclick="ukazVzorovouOtazku()">Nahlédnout na vzorovou otázku</button>
+            </div>
+            
+            <div id="kategorieProstor" style="display: none; margin-top: 20px;">
+                <h3 style="text-align: center; color: var(--primary-color);">Vyberte si tréninkový okruh:</h3>
+                <div id="kategorieGrid" class="kategorie-grid"></div>
+            </div>
+            
+            <div id="vzorovaOtazka" class="vzor-box" style="display: none;">
+                <!-- Zde se načte dat z JSON přes JavaScript -->
+                <p><i>Načítám ukázku ze zásahových plánů...</i></p>
+            </div>
+        </section>
+
+        <!-- Sekce 2: Přihlášení / Registrace -->
+        <section id="loginContainer" class="card hidden-section">
+            <h2 style="color: var(--primary-color);">Modul pro přihlášení</h2>
+            <div class="tabs">
+                <button class="tab-btn active" onclick="prepniTab('login')">Přihlášení uživatele</button>
+                <button class="tab-btn" onclick="prepniTab('register')">Nová registrace</button>
+            </div>
+            
+            <!-- Formulář přihlášení -->
+            <form id="loginForm" class="auth-form active-form">
+                <div class="form-group">
+                    <label for="loginName">Jméno uživatele / Přezdívka:</label>
+                    <input type="text" id="loginName">
+                </div>
+                <div class="form-group">
+                    <label for="loginPass">Heslo:</label>
+                    <input type="password" id="loginPass">
+                </div>
+                <button type="submit" class="btn btn-primary">Přihlásit se do systému</button>
+                <button type="button" class="btn btn-outline" style="margin-left:10px; border-color: #888; color: #888;" onclick="zobrazAplikaci('uvodContainer')">Zpět na úvod</button>
+                <div style="margin-top: 15px; text-align: center;">
+                    <a href="#" onclick="zobrazAplikaci('obnovaContainer')" style="color: #666; font-size: 0.9rem;">Zapomněli jste heslo?</a>
+                </div>
+            </form>
+
+            <!-- Formulář Registrace -->
+            <form id="registerForm" class="auth-form hidden-form">
+                <div class="form-group">
+                    <label for="regName">Zvolte si jméno / přezdívku:</label>
+                    <input type="text" id="regName">
+                </div>
+                <div class="form-group">
+                    <label for="regEmail">Váš e-mail (pro případ zapomenutí hesla):</label>
+                    <input type="email" id="regEmail" placeholder="@">
+                </div>
+                <div class="form-group">
+                    <label for="regPass">Zvolte si heslo:</label>
+                    <input type="password" id="regPass">
+                </div>
+                <div class="form-group">
+                    <label for="regKlic">Tajný kód sboru *</label>
+                    <input type="text" id="regKlic" placeholder="Ověřovací kód od velitele" required>
+                </div>
+                <p class="form-info">Vaše heslo bude v databázi bezpečně zašifrováno, k datům tak nebude mít přístup neoprávněná osoba. E-mail slouží výhradně k obnově účtu.</p>
+                <button type="submit" class="btn btn-primary">Zaregistrovat a pokračovat</button>
+                <button type="button" class="btn btn-outline" style="margin-left:10px; border-color: #888; color: #888;" onclick="zobrazAplikaci('uvodContainer')">Zpět na úvod</button>
+            </form>
+        </section>
+
+        <!-- Sekce pro odeslání e-mailu na zapomenuté heslo -->
+        <section id="obnovaContainer" class="card hidden-section">
+            <h2 style="color: var(--primary-color);">Obnova hesla</h2>
+            <p>Zadejte svůj e-mail a my Vám zašleme odkaz pro vytvoření nového hesla.</p>
+            <form id="obnovaForm" class="auth-form active-form">
+                <div class="form-group">
+                    <label for="obnovaEmail">Váš e-mail z registrace:</label>
+                    <input type="email" id="obnovaEmail" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Odeslat odkaz na e-mail</button>
+                <button type="button" class="btn btn-outline" style="margin-left:10px; border-color: #888; color: #888;" onclick="zobrazAplikaci('loginContainer')">Zpět na přihlášení</button>
+            </form>
+        </section>
+
+        <!-- Sekce pro ZMĚNU hesla (vyvolá se pouze po příchodu z e-mailu s tokenem v URL) -->
+        <section id="zmenaHeslaContainer" class="card hidden-section">
+            <h2 style="color: var(--primary-color);">Zadání nového hesla</h2>
+            <form id="zmenaHeslaForm" class="auth-form active-form">
+                <div class="form-group">
+                    <label for="noveHeslo">Nové heslo:</label>
+                    <input type="password" id="noveHeslo" required>
+                </div>
+                <div class="form-group">
+                    <label for="noveHesloPotvrzeni">Potvrzení nového hesla:</label>
+                    <input type="password" id="noveHesloPotvrzeni" required>
+                </div>
+                <!-- Skryté pole pro držení tokenu z URL -->
+                <input type="hidden" id="resetTokenUrl">
+                
+                <button type="submit" class="btn btn-primary">Uložit nové heslo</button>
+            </form>
+        </section>
+
+        <!-- Sekce pro Nastavení účtu -->
+        <section id="nastaveniContainer" class="card hidden-section">
+            <h2 style="color: var(--primary-color);">Nastavení účtu</h2>
+            
+            <div class="tabs">
+                <button class="tab-btn active" id="tabHistorieBtn" onclick="prepniTabNastaveni('historie')">Historie testů</button>
+                <button class="tab-btn" id="tabHesloBtn" onclick="prepniTabNastaveni('heslo')">Změna hesla</button>
+            </div>
+
+            <!-- Historie testů -->
+            <div id="historieTab" class="active-form" style="margin-top: 20px;">
+                <h3 style="color: var(--primary-color); margin-bottom: 15px;">Můj postup (Znalosti okruhů)</h3>
+                <div id="historieProgressBary" style="margin-bottom: 30px;">
+                    <p>Načítám data...</p>
+                </div>
+                
+                <h3 style="color: var(--primary-color); margin-bottom: 15px; border-top: 1px solid var(--border-color); padding-top: 15px;">Výpis absolvovaných testů</h3>
+                <div id="historieList">Načítám historii...</div>
+            </div>
+
+            <!-- Formulář změny hesla -->
+            <form id="zmenaHeslaProfilForm" class="auth-form hidden-form" style="margin-top: 20px;">
+                <div class="form-group">
+                    <label for="stareHesloProfil">Současné heslo:</label>
+                    <input type="password" id="stareHesloProfil" required>
+                </div>
+                <div class="form-group">
+                    <label for="noveHesloProfil">Nové heslo:</label>
+                    <input type="password" id="noveHesloProfil" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Uložit nové heslo</button>
+            </form>
+            
+            <button class="btn btn-outline" style="margin-top: 20px; border-color: #888; color: #888;" onclick="zobrazAplikaci('uvodContainer')">Zpět na úvod</button>
+        </section>
+
+        <!-- Sekce pro Administraci -->
+        <section id="adminContainer" class="card hidden-section">
+            <h2 style="color: #dc3545;">Administrátorský panel</h2>
+            <p>Zde můžete spravovat uživatele a udělovat oprávnění.</p>
+            
+            <div class="card" style="margin-bottom: 2rem; border-left: 4px solid var(--accent-color); padding: 15px; background: #fdfdfd;">
+                <h3 style="color: var(--primary-color); margin-top: 0; margin-bottom: 10px;">Zabezpečení registrací účtů</h3>
+                <p>Aktuální přístupový kód sboru pro nové členy: <strong id="adminZobrazenyKod" style="font-size:1.2rem; background:#fff; padding:3px 8px; border:1px solid var(--border-color); border-radius:4px; color:var(--danger-color);">Načítám...</strong></p>
+                <div class="form-group" style="max-width: 400px; margin-top:10px; margin-bottom: 0;">
+                    <label for="adminNovyKod">Změnit registrační kód:</label>
+                    <div style="display:flex; gap:10px;">
+                        <input type="text" id="adminNovyKod" placeholder="Nový tajný kód...">
+                        <button type="button" class="btn btn-primary" onclick="zmenRegistracniKod()">Uložit</button>
+                    </div>
+                </div>
+            </div>
+            
+            <table class="admin-table" style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+                <thead>
+                    <tr style="background: #f4f4f4; border-bottom: 2px solid #ddd;">
+                        <th style="padding: 10px; text-align: left;">ID</th>
+                        <th style="padding: 10px; text-align: left;">Jméno</th>
+                        <th style="padding: 10px; text-align: left;">E-mail</th>
+                        <th style="padding: 10px; text-align: left;">Role</th>
+                        <th style="padding: 10px; text-align: right;">Akce</th>
+                    </tr>
+                </thead>
+                <tbody id="adminUzivateleList">
+                    <tr><td colspan="5">Načítám uživatele...</td></tr>
+                </tbody>
+            </table>
+            
+            <!-- NOVÁ SEKCE: Analytika otázek podle M. Chrásky -->
+            <div class="card" style="margin-top: 40px; border-left: 4px solid #28a745; padding: 15px; background: #fdfdfd;">
+                <h3 style="color: #28a745; margin-top: 0; margin-bottom: 10px;">Položková analýza úloh (podle M. Chrásky)</h3>
+                <p>Zde je zobrazen <strong>Index obtížnosti p</strong>, který ukazuje procento lidí, co na danou otázku odpoví správně. Úkoly s nízkým indexem (0-20 %) vyžadují vaši pozornost – učivo může být špatně pochopitelné nebo je úkol špatně zadaný.</p>
+                <div style="overflow-x: auto;">
+                    <table class="admin-table" style="width: 100%; border-collapse: collapse; margin-top: 10px;">
+                        <thead>
+                            <tr style="background: #f4f4f4; border-bottom: 2px solid #ddd;">
+                                <th style="padding: 10px; text-align: left; width: 10%;">ID / Kat.</th>
+                                <th style="padding: 10px; text-align: left; width: 50%;">Známá část textu</th>
+                                <th style="padding: 10px; text-align: center; width: 10%;">Celkem<br>odpovědí</th>
+                                <th style="padding: 10px; text-align: center; width: 10%;">Z toho<br>správně</th>
+                                <th style="padding: 10px; text-align: center; width: 20%;">Index <em>p</em><br>(Očekávání)</th>
+                            </tr>
+                        </thead>
+                        <tbody id="adminAnalytikaList">
+                            <tr><td colspan="5">Načítám analýzu...</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <button class="btn btn-outline" style="margin-top: 20px; border-color: #888; color: #888;" onclick="zobrazAplikaci('uvodContainer')">Zpět na úvod</button>
+        </section>
+
+        <!-- Sekce 3: Samotný test / Kvíz -->
+        <section id="testContainer" class="card hidden-section" style="position: relative;">
+            <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid var(--border-color); padding-bottom: 15px; margin-bottom: 20px;">
+                <h2 style="color: var(--primary-color); margin: 0; font-size: 1.5rem;" id="nadpisTestu">Probíhá testování na téma: --</h2>
+                <div class="btn btn-outline" style="font-weight: bold; color: #888; border-color: #ccc; cursor: default; gap: 8px;">
+                    ⏱️ <span id="casomer">00:00</span>
+                </div>
+            </div>
+
+            <!-- Prostor pro otázku -->
+            <div id="otazkaProstor">
+                <h3 id="textOtazky" style="font-size: 1.4rem; margin-bottom: 1.5rem; text-align: center;">Načítání otázky...</h3>
+                
+                <div id="moznostiProstor" style="display: grid; gap: 10px;">
+                    <!-- Zde přes javascript vygenerujeme tlačítka A, B, C, D -->
+                </div>
+            </div>
+
+            <div style="margin-top: 30px; display: flex; justify-content: space-between; align-items: center; border-top: 2px solid var(--border-color); padding-top: 15px;">
+                  <button class="btn btn-danger" onclick="potvrditUkonceniTestu()">Ukončit test</button>
+                  <span style="color: #666; font-weight: bold; font-size: 1.1rem;">Otázka <span id="aktualniCislo">1</span> / <span id="celkemOtazek">--</span></span>
+                  <button id="btnDalsi" class="btn btn-primary" onclick="dalsiOtazku()" disabled>Další otázka ➡</button>
+            </div>
+            
+            <!-- Vyskakovací okno pro předčasné ukončení -->
+            <div id="ukoncitModal" class="modal-overlay hidden-section">
+                <div class="modal-content">
+                    <h3 style="color: var(--danger-color); margin-top: 0;">Skutečně ukončit test?</h3>
+                    <p style="margin-bottom: 20px; color: #555;">Dosavadní postup bude ztracen.</p>
+                    <div style="display: flex; justify-content: center; gap: 15px;">
+                        <button class="btn btn-gray-outline" style="flex: 1; display: flex; flex-direction: column; line-height: 1.2; padding: 10px;" onclick="skrytUkonceniTestu()">
+                            <strong style="font-size: 1.2rem;">NE</strong><span style="font-size: 0.85rem; font-weight: normal;">pokračovat</span>
+                        </button>
+                        <button class="btn btn-danger" style="flex: 1; display: flex; flex-direction: column; line-height: 1.2; padding: 10px;" onclick="zahoditTest()">
+                            <strong style="font-size: 1.2rem;">ANO</strong><span style="font-size: 0.85rem; font-weight: normal;">ukončit</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sekce 4: Výsledky a statistika po testu -->
+        <section id="vysledekContainer" class="card hidden-section" style="text-align: center;">
+            <h2 style="color: var(--primary-color);">Výsledek testu 📜</h2>
+            
+            <div style="background: var(--bg-color); padding: 30px; border-radius: 12px; margin: 20px 0;">
+                <div id="gamifikaceProstor"></div>
+                <h1 style="font-size: 4rem; color: var(--accent-color); margin: 0;" id="skoreProcenta">--%</h1>
+                <p style="font-size: 1.2rem; margin-top: 10px;">Zodpovězeno správně a s přehledem: <strong id="skoreZlomkem">--/--</strong></p>
+                <p>Váš čistý čas nasazení: <strong id="konecnyCas">--:--</strong></p>
+            </div>
+
+            <div id="chybyProstor" style="margin-top: 30px; text-align: left;">
+                <!-- Zde se vypíšou jen chybně zodpovězené otázky -->
+            </div>
+
+            <h3 style="margin-top: 40px; border-top: 2px solid #eee; padding-top: 20px;">Historie testování:</h3>
+            <div style="text-align: left; background: #fff; padding: 15px; border: 1px solid var(--border-color); border-radius: 8px; margin-bottom: 20px;">
+                 <p style="color: #888;"><em>Zde bude v budoucnu graficky zpracovaný detailní postup Vašeho profilu. Prozatím najdete plnou historii všech Vašich testů nahoře v "Nastavení účtu".</em></p>
+            </div>
+
+            <button class="btn btn-primary" onclick="zobrazAplikaci('uvodContainer')">Zpět na volbu testu</button>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>Systém pro testy z požární ochrany vytvořil pro všechny zapálené hasiče Ing. Zdeněk Toul ml. v roce 2026.</p>
+            <div style="margin-top: 15px;">
+                <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">
+                    <img alt="Licence Creative Commons" style="border-width:0; opacity: 0.8;" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" title="Uvedení autora – Nekomerční využití – Zachovejte licenci" />
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
