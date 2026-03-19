@@ -39,9 +39,14 @@ const transporter = nodemailer.createTransport({
     }
 });
 
-// --- DATABÁZE ---
+// Zajištění existence složky pro databázi
+const dbDir = path.join(__dirname, 'db');
+if (!fs.existsSync(dbDir)) {
+    fs.mkdirSync(dbDir);
+}
+
 // Založíme databázi nebo se připojíme k již existující databázi sqlite
-const db = new sqlite3.Database(path.join(__dirname, 'db', 'app.db'), (err) => {
+const db = new sqlite3.Database(path.join(dbDir, 'app.db'), (err) => {
     if (err) {
         console.error('Chyba při připojování k databázi:', err.message);
     } else {
