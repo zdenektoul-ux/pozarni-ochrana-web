@@ -1,44 +1,5 @@
 [
     {
-        "id": 1,
-        "otazka": "Jaké je telefonní číslo na hasiče v České republice?",
-        "moznosti": [
-            "150",
-            "155",
-            "158",
-            "112"
-        ],
-        "spravnaOdpoved": 0,
-        "vysvetleni": "Linka 150 je přímá volba na Hasičský záchranný sbor ČR.",
-        "kategorie": "mix"
-    },
-    {
-        "id": 2,
-        "otazka": "Čím se nesmí hasit hořící olej na pánvi?",
-        "moznosti": [
-            "Vodou",
-            "Pěnovým hasicím přístrojem",
-            "Zakrytím mokrým hadrem",
-            "Pískem"
-        ],
-        "spravnaOdpoved": 0,
-        "vysvetleni": "Při hašení horkého oleje vodou by došlo k prudkému varu a explozivnímu rozprsknutí hořícího oleje po okolí.",
-        "kategorie": "mix"
-    },
-    {
-        "id": 3,
-        "otazka": "Který hasicí přístroj je nejvhodnější k hašení elektrických zařízení pod proudem?",
-        "moznosti": [
-            "Vodní",
-            "Pěnový",
-            "Sněhový (CO2)",
-            "K hašení přístrojů pod proudem se nesmí použít žádný přístroj"
-        ],
-        "spravnaOdpoved": 2,
-        "vysvetleni": "Sněhový hasicí přístroj (CO2) je nevodivý a nezanechává zbytky, které by mohly zařízení dále poškodit.",
-        "kategorie": "mix"
-    },
-    {
         "kategorie": "organizace",
         "otazka": "Jaký je stanovený časový limit pro výjezd jednotky kategorie JPO II (jednotka SDH obce s členy, kteří vykonávají službu jako své povolání)?",
         "moznosti": [

@@ -271,6 +271,32 @@ window.oznacMoznost = function(indexMoznosti, tlacitkoElement) {
     document.getElementById('btnDalsi').disabled = false;
 };
 
+// Funkce pro Přeskočení otázky bez vybrání (počítá se jako chyba/0)
+window.preskocitOtazku = function() {
+    vybranaMoznost = null;
+    const spravnaVolba = aktualniSeznamOtazek[indexAktualniOtazky].spravnaOdpoved;
+    
+    odeslaneOdpovedi.push({
+        otazka_id: aktualniSeznamOtazek[indexAktualniOtazky].id,
+        spravne: 0
+    });
+    
+    detailyOdpovedi.push({
+        otazka: aktualniSeznamOtazek[indexAktualniOtazky].otazka,
+        spravneZodpovezeno: false,
+        vybranyText: 'Přeskočeno (bez odpovědi)',
+        spravnyText: aktualniSeznamOtazek[indexAktualniOtazky].moznosti[spravnaVolba],
+        vysvetleni: aktualniSeznamOtazek[indexAktualniOtazky].vysvetleni
+    });
+    
+    indexAktualniOtazky++;
+    if (indexAktualniOtazky < aktualniSeznamOtazek.length) {
+        vykresliInstanciOtazky();
+    } else {
+        ukonciTest();
+    }
+};
+
 // Funkce pro posunutí na "další" obrazovku s otázkou
 window.dalsiOtazku = function() {
     // 1. Zkontrolujeme, zda uživatel předchozí otázku trefil správně (body)

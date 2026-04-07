@@ -250,7 +250,10 @@
             <div style="margin-top: 30px; display: flex; justify-content: space-between; align-items: center; border-top: 2px solid var(--border-color); padding-top: 15px;">
                   <button class="btn btn-danger" onclick="potvrditUkonceniTestu()">Ukončit test</button>
                   <span style="color: #666; font-weight: bold; font-size: 1.1rem;">Otázka <span id="aktualniCislo">1</span> / <span id="celkemOtazek">--</span></span>
-                  <button id="btnDalsi" class="btn btn-primary" onclick="dalsiOtazku()" disabled>Další otázka ➡</button>
+                  <div style="display: flex; gap: 10px;">
+                      <button id="btnPreskocit" class="btn btn-outline" style="border-color: #f39c12; color: #f39c12;" onclick="preskocitOtazku()">Přeskočit ⏭️</button>
+                      <button id="btnDalsi" class="btn btn-primary" onclick="dalsiOtazku()" disabled>Další otázka ➡</button>
+                  </div>
             </div>
             
             <!-- Vyskakovací okno pro předčasné ukončení -->

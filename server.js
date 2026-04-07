@@ -226,17 +226,29 @@ app.get('/api/test-otazky/:kategorie', (req, res) => {
             
             let mix = [];
             
-            // Plnění dle e-learningových vah: 4 kritické, 3 nové, 2 upevňující, 1 zvládnutá
-            let popKrit = Math.min(4, kriticke.length);
+            let celkemVidenych = Object.keys(historie).length;
+            let celkemOtazek = otazky.length;
+            let pokryti = celkemOtazek > 0 ? (celkemVidenych / celkemOtazek) : 0;
+            
+            let vahy;
+            if (pokryti < 0.15) {
+                // Fáze průzkumu
+                vahy = { kriticke: 2, nove: 7, upevnujici: 1, zvladnute: 0 };
+            } else {
+                // Fáze adaptivního opakování
+                vahy = { kriticke: 4, nove: 3, upevnujici: 2, zvladnute: 1 };
+            }
+            
+            let popKrit = Math.min(vahy.kriticke, kriticke.length);
             mix.push(...kriticke.splice(0, popKrit));
             
-            let popNov = Math.min(3, nove.length);
+            let popNov = Math.min(vahy.nove, nove.length);
             mix.push(...nove.splice(0, popNov));
             
-            let popUpev = Math.min(2, upevnujici.length);
+            let popUpev = Math.min(vahy.upevnujici, upevnujici.length);
             mix.push(...upevnujici.splice(0, popUpev));
             
-            let popZvlad = Math.min(1, zvladnute.length);
+            let popZvlad = Math.min(vahy.zvladnute, zvladnute.length);
             mix.push(...zvladnute.splice(0, popZvlad));
             
             // Fallback (záchrana kapacity): Pokud celkové pole nemá ještě 10 otázek, doplní se spravedlivě vším, co ještě zbylo
