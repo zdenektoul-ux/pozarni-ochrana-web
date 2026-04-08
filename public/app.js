@@ -396,8 +396,9 @@ async function ukonciTest() {
                 kategorie: aktualniKategorie
             })
         });
-        // Po uložení zaktualizujeme progres uživatele (kartičky)
+        // Po uložení zaktualizujeme progres uživatele a vypíšeme aktuální historii (poslední 3 testy)
         nactiKategorie();
+        nactiVypsanouHistorii('vysledekHistorieList', 3);
     } catch(err) {
         console.error("Nepodařilo se uložit výsledek testu na server.");
     }
@@ -678,16 +679,21 @@ async function zobrazNastaveniUctu() {
     // Vykreslení celkových znalostních progress barů
     nactiProgressBary();
     
+    nactiVypsanouHistorii('historieList');
+}
+
+async function nactiVypsanouHistorii(elementId, limit = null) {
     try {
         const response = await fetch('/api/moje-testy');
         if (response.ok) {
-            const data = await response.json();
-            const list = document.getElementById('historieList');
-            if (data.length === 0) {
+            const vypsanaData = await response.json();
+            const list = document.getElementById(elementId);
+            if (vypsanaData.length === 0) {
                 list.innerHTML = '<p>Zatím nemáte splněné žádné testy. Vrhněte se do toho!</p>';
             } else {
                 let html = '<div class="historie-grid">';
-                data.forEach(t => {
+                const zobrazenaData = limit ? vypsanaData.slice(0, limit) : vypsanaData;
+                zobrazenaData.forEach(t => {
                     const d = new Date(t.datum).toLocaleString('cs-CZ');
                     const pct = Math.round((t.skore / t.celkem_otazek) * 100);
                     
@@ -718,7 +724,7 @@ async function zobrazNastaveniUctu() {
             }
         }
     } catch (e) {
-        document.getElementById('historieList').innerText = "Chyba při načítání historie ze serveru.";
+        document.getElementById(elementId).innerText = "Chyba při načítání historie ze serveru.";
     }
 }
 

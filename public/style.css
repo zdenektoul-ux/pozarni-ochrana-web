@@ -147,11 +147,20 @@ body {
 }
 .btn-secondary:hover { background-color: var(--hover-color); }
 
+.btn-skip {
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+}
+.btn-skip:hover {
+    background-color: var(--hover-color);
+    color: #f5c444; /* svítivější zlatá po najetí */
+}
+
 .btn-danger {
-    background-color: var(--danger-color);
+    background-color: #a00000;
     color: white;
 }
-.btn-danger:hover { background-color: #a00000; box-shadow: 0 4px 10px rgba(204, 0, 0, 0.3); }
+.btn-danger:hover { background-color: var(--danger-color); box-shadow: 0 4px 10px rgba(204, 0, 0, 0.4); }
 
 .btn-outline {
     background-color: transparent;
@@ -174,6 +183,19 @@ body {
     background-color: var(--accent-color);
     border-color: var(--accent-color);
     color: #111;
+}
+
+.btn-green-outline {
+    background-color: transparent;
+    border: 2px solid #1a7a30;
+    color: #1a7a30;
+    box-shadow: none;
+    font-weight: bold;
+}
+.btn-green-outline:hover {
+    background-color: #1a7a30;
+    border-color: #1a7a30;
+    color: #ffffff;
 }
 
 /* Zábavný box pro ukázkovou otázku */
@@ -315,6 +337,17 @@ body {
     display: inline-block;
 }
 
+/* Záchytný "most" pro myš: zajistí, že po opuštění tlačítka směrem dolů uživatel neztratí hover dříve, než najede na samotné menu */
+.user-dropdown::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    bottom: -15px;
+    left: 0;
+    cursor: pointer;
+}
+
 .user-dropdown-btn {
     background-color: transparent;
     color: var(--accent-color); /* Zlatá barva jako u nápisu Otestujte své znalosti */
@@ -371,7 +404,8 @@ body {
     color: var(--accent-color);
 }
 
-.user-dropdown.show .user-dropdown-content {
+.user-dropdown.show .user-dropdown-content,
+.user-dropdown:hover .user-dropdown-content {
     display: block;
     animation: fadeInDropdown 0.2s ease-out forwards;
 }
@@ -437,12 +471,6 @@ body {
     border: 1px solid var(--border-color);
     padding: 12px 15px;
     border-radius: 8px;
-    transition: transform 0.2s, box-shadow 0.2s;
-}
-.historie-item:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-    border-color: var(--primary-color);
 }
 .historie-ikona {
     width: 40px;

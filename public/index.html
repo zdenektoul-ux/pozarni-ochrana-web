@@ -99,7 +99,7 @@
                 </div>
                 <p class="form-info">Vaše heslo bude v databázi bezpečně zašifrováno, k datům tak nebude mít přístup neoprávněná osoba. E-mail slouží výhradně k obnově účtu.</p>
                 <button type="submit" class="btn btn-primary">Zaregistrovat a pokračovat</button>
-                <button type="button" class="btn btn-outline" style="margin-left:10px; border-color: #888; color: #888;" onclick="zobrazAplikaci('uvodContainer')">Zpět na úvod</button>
+                <button type="button" class="btn btn-green-outline" style="margin-left:10px;" onclick="zobrazAplikaci('uvodContainer')">Zpět na úvod</button>
             </form>
         </section>
 
@@ -113,7 +113,7 @@
                     <input type="email" id="obnovaEmail" required>
                 </div>
                 <button type="submit" class="btn btn-primary">Odeslat odkaz na e-mail</button>
-                <button type="button" class="btn btn-outline" style="margin-left:10px; border-color: #888; color: #888;" onclick="zobrazAplikaci('loginContainer')">Zpět na přihlášení</button>
+                <button type="button" class="btn btn-green-outline" style="margin-left:10px;" onclick="zobrazAplikaci('loginContainer')">Zpět na přihlášení</button>
             </form>
         </section>
 
@@ -169,7 +169,7 @@
                 <button type="submit" class="btn btn-primary">Uložit nové heslo</button>
             </form>
             
-            <button class="btn btn-outline" style="margin-top: 20px; border-color: #888; color: #888;" onclick="zobrazAplikaci('uvodContainer')">Zpět na úvod</button>
+            <button class="btn btn-green-outline" style="margin-top: 20px;" onclick="zobrazAplikaci('uvodContainer')">Zpět na úvod</button>
         </section>
 
         <!-- Sekce pro Administraci -->
@@ -226,14 +226,14 @@
                 </div>
             </div>
 
-            <button class="btn btn-outline" style="margin-top: 20px; border-color: #888; color: #888;" onclick="zobrazAplikaci('uvodContainer')">Zpět na úvod</button>
+            <button class="btn btn-green-outline" style="margin-top: 20px;" onclick="zobrazAplikaci('uvodContainer')">Zpět na úvod</button>
         </section>
 
         <!-- Sekce 3: Samotný test / Kvíz -->
         <section id="testContainer" class="card hidden-section" style="position: relative;">
             <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid var(--border-color); padding-bottom: 15px; margin-bottom: 20px;">
                 <h2 style="color: var(--primary-color); margin: 0; font-size: 1.5rem;" id="nadpisTestu">Probíhá testování na téma: --</h2>
-                <div class="btn btn-outline" style="font-weight: bold; color: #888; border-color: #ccc; cursor: default; gap: 8px;">
+                <div style="font-weight: bold; color: #888; font-size: 1.1rem; display: flex; align-items: center; gap: 8px;">
                     ⏱️ <span id="casomer">00:00</span>
                 </div>
             </div>
@@ -251,7 +251,7 @@
                   <button class="btn btn-danger" onclick="potvrditUkonceniTestu()">Ukončit test</button>
                   <span style="color: #666; font-weight: bold; font-size: 1.1rem;">Otázka <span id="aktualniCislo">1</span> / <span id="celkemOtazek">--</span></span>
                   <div style="display: flex; gap: 10px;">
-                      <button id="btnPreskocit" class="btn btn-outline" style="border-color: #f39c12; color: #f39c12;" onclick="preskocitOtazku()">Přeskočit ⏭️</button>
+                      <button id="btnPreskocit" class="btn btn-skip" onclick="preskocitOtazku()">Přeskočit</button>
                       <button id="btnDalsi" class="btn btn-primary" onclick="dalsiOtazku()" disabled>Další otázka ➡</button>
                   </div>
             </div>
@@ -262,11 +262,11 @@
                     <h3 style="color: var(--danger-color); margin-top: 0;">Skutečně ukončit test?</h3>
                     <p style="margin-bottom: 20px; color: #555;">Dosavadní postup bude ztracen.</p>
                     <div style="display: flex; justify-content: center; gap: 15px;">
-                        <button class="btn btn-gray-outline" style="flex: 1; display: flex; flex-direction: column; line-height: 1.2; padding: 10px;" onclick="skrytUkonceniTestu()">
-                            <strong style="font-size: 1.2rem;">NE</strong><span style="font-size: 0.85rem; font-weight: normal;">pokračovat</span>
+                        <button class="btn btn-green-outline" style="flex: 1; padding: 15px; font-size: 1.1rem;" onclick="skrytUkonceniTestu()">
+                            Ne, vrátit se k testu
                         </button>
-                        <button class="btn btn-danger" style="flex: 1; display: flex; flex-direction: column; line-height: 1.2; padding: 10px;" onclick="zahoditTest()">
-                            <strong style="font-size: 1.2rem;">ANO</strong><span style="font-size: 0.85rem; font-weight: normal;">ukončit</span>
+                        <button class="btn btn-danger" style="flex: 1; padding: 15px; font-size: 1.1rem;" onclick="zahoditTest()">
+                            Ano, zahodit postup
                         </button>
                     </div>
                 </div>
@@ -288,12 +288,12 @@
                 <!-- Zde se vypíšou jen chybně zodpovězené otázky -->
             </div>
 
-            <h3 style="margin-top: 40px; border-top: 2px solid #eee; padding-top: 20px;">Historie testování:</h3>
-            <div style="text-align: left; background: #fff; padding: 15px; border: 1px solid var(--border-color); border-radius: 8px; margin-bottom: 20px;">
-                 <p style="color: #888;"><em>Zde bude v budoucnu graficky zpracovaný detailní postup Vašeho profilu. Prozatím najdete plnou historii všech Vašich testů nahoře v "Nastavení účtu".</em></p>
+            <h3 style="margin-top: 40px; border-top: 2px solid #eee; padding-top: 20px;">Nedávná aktivita</h3>
+            <div id="vysledekHistorieList" style="text-align: left; background: #fff; padding: 15px; border: 1px solid var(--border-color); border-radius: 8px; margin-bottom: 20px;">
+                 <p style="color: #888;">Načítám aktuální historii vašich zásahů...</p>
             </div>
 
-            <button class="btn btn-primary" onclick="zobrazAplikaci('uvodContainer')">Zpět na volbu testu</button>
+            <button class="btn btn-green-outline" style="margin-top: 20px;" onclick="zobrazAplikaci('uvodContainer')">Zpět na volbu testu</button>
         </section>
 
     </main>
