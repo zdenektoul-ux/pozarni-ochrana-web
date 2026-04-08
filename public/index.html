@@ -16,12 +16,16 @@
             <div class="logo-area">
                 <!-- Znak SH ČMS je uloženo lokálně vedle index.html jako znak.png -->
                 <img src="znak.png" alt="Znak hasičů" class="logo">
-                <h1>Školení hasičů<br><small>Zásahová jednotka SDH Borotín - Otestujte své znalosti</small></h1>
+                <h1>
+                    <span class="heading-main">Školení hasičů</span>
+                    <span class="heading-sub1">Zásahová jednotka SDH Borotín</span>
+                    <span class="heading-sub2">Otestujte své znalosti!</span>
+                </h1>
             </div>
             
             <div class="user-area" id="userArea">
                 <!-- Zde se přes JavaScript vloží buď tlačítko přihlášení, nebo jméno uživatele -->
-                <button class="btn btn-outline" onclick="zobrazAplikaci('loginContainer')">Vstoupit do testování</button>
+                <button id="btnLoginHead" class="btn btn-outline" onclick="zobrazAplikaci('loginContainer')">Vstoupit do testování</button>
             </div>
         </div>
     </header>
@@ -231,10 +235,15 @@
 
         <!-- Sekce 3: Samotný test / Kvíz -->
         <section id="testContainer" class="card hidden-section" style="position: relative;">
-            <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid var(--border-color); padding-bottom: 15px; margin-bottom: 20px;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; border-bottom: 2px solid var(--border-color); padding-bottom: 15px; margin-bottom: 20px;">
                 <h2 style="color: var(--primary-color); margin: 0; font-size: 1.5rem;" id="nadpisTestu">Probíhá testování na téma: --</h2>
-                <div style="font-weight: bold; color: #888; font-size: 1.1rem; display: flex; align-items: center; gap: 8px;">
-                    ⏱️ <span id="casomer">00:00</span>
+                <div style="text-align: right;">
+                    <div style="color: #666; font-weight: bold; font-size: 1.1rem; margin-bottom: 5px;">
+                        Otázka <span id="aktualniCislo">1</span> / <span id="celkemOtazek">--</span>
+                    </div>
+                    <div style="font-weight: bold; color: #888; font-size: 1.1rem;">
+                        <span style="margin-right: 4px;">⏱️</span><span id="casomer">00:00</span>
+                    </div>
                 </div>
             </div>
 
@@ -247,13 +256,10 @@
                 </div>
             </div>
 
-            <div style="margin-top: 30px; display: flex; justify-content: space-between; align-items: center; border-top: 2px solid var(--border-color); padding-top: 15px;">
-                  <button class="btn btn-danger" onclick="potvrditUkonceniTestu()">Ukončit test</button>
-                  <span style="color: #666; font-weight: bold; font-size: 1.1rem;">Otázka <span id="aktualniCislo">1</span> / <span id="celkemOtazek">--</span></span>
-                  <div style="display: flex; gap: 10px;">
-                      <button id="btnPreskocit" class="btn btn-skip" onclick="preskocitOtazku()">Přeskočit</button>
-                      <button id="btnDalsi" class="btn btn-primary" onclick="dalsiOtazku()" disabled>Další otázka ➡</button>
-                  </div>
+            <div class="test-actions-bar" style="margin-top: 30px; display: flex; gap: 10px; justify-content: space-between; border-top: 2px solid var(--border-color); padding-top: 15px;">
+                <button id="btnUkoncit" class="btn btn-danger" onclick="potvrditUkonceniTestu()" style="flex: 1;">Ukončit test</button>
+                <button id="btnPreskocit" class="btn btn-skip" onclick="preskocitOtazku()" style="flex: 1;">Přeskočit</button>
+                <button id="btnDalsi" class="btn btn-primary" onclick="dalsiOtazku()" disabled style="flex: 1;">Další otázka ➡</button>
             </div>
             
             <!-- Vyskakovací okno pro předčasné ukončení -->

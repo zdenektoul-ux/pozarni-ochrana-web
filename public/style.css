@@ -43,34 +43,56 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap; 
+    flex-wrap: nowrap;
+    gap: 15px;
 }
 
 .logo-area {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 15px;
 }
 
 .logo {
-    height: 70px;
-    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.4));
+    height: 95px;
+    margin-top: 4px;
+    filter: drop-shadow(0 3px 6px rgba(0,0,0,0.5));
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: translateZ(0); /* Vynutí hardwarovou akceleraci, čímž doostří zmenšené PNG v některých prohlížečích */
+    image-rendering: -webkit-optimize-contrast; /* Speciální trik pro Chrome ke zvýšení ostrosti zmenšených obrázků */
     transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 
 
 .logo-area h1 {
-    font-size: 1.9rem;
-    line-height: 1.2;
+    margin: 0;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 }
 
-.logo-area small {
-    font-size: 1rem;
-    font-weight: 400;
-    opacity: 0.9;
+.heading-main {
+    display: block;
+    font-size: 1.9rem;
+    line-height: 1.1;
+    margin-bottom: 7px;
+}
+
+.heading-sub1 {
+    display: block;
+    font-size: 1.05rem;
+    font-weight: 600;
     color: var(--accent-color);
+    line-height: 1.1;
+    margin-bottom: 2px;
+}
+
+.heading-sub2 {
+    display: block;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--accent-color);
+    line-height: 1.1;
 }
 
 /* Hlavní obsah */
@@ -492,4 +514,84 @@ body {
     font-size: 1.2rem;
     text-align: right;
     min-width: 60px;
+}
+
+/* --- Responzivní vylepšení pro mobily --- */
+@media (max-width: 500px) {
+    .test-actions-bar {
+        gap: 5px !important;
+    }
+    .test-actions-bar .btn {
+        font-size: 0.85rem;
+        padding: 10px 5px;
+    }
+    
+    /* Zkrácení textů na menších displejích nahrazením obsahu */
+    #btnDalsi {
+        font-size: 0;
+    }
+    #btnDalsi::after {
+        content: "Další ➡";
+        font-size: 0.85rem;
+    }
+    
+    #btnUkoncit {
+        font-size: 0;
+    }
+    #btnUkoncit::after {
+        content: "Ukončit";
+        font-size: 0.85rem;
+    }
+    
+    /* --- Responzivita hlavičky --- */
+    .header-container {
+        gap: 8px;
+    }
+    .logo-area {
+        gap: 10px;
+    }
+    .logo {
+        height: 65px;
+    }
+    .logo-area h1 {
+        margin-top: 2px;
+    }
+    .heading-main {
+        font-size: 1.25rem;
+        line-height: 1.1;
+        margin-bottom: 4px;
+    }
+    .heading-sub1 {
+        font-size: 0.9rem;
+        font-weight: 600;
+        line-height: 1.2;
+        display: block;
+        margin-bottom: 1px;
+    }
+    .heading-sub2 {
+        font-size: 0.9rem;
+        font-weight: 600;
+        line-height: 1.2;
+        display: block;
+    }
+    
+    #btnLoginHead {
+        font-size: 0;
+        padding: 8px 12px;
+    }
+    #btnLoginHead::after {
+        content: "Vstoupit";
+        font-size: 0.9rem;
+    }
+    
+    /* Dynamický prvek přihlášeného uživatele */
+    .user-dropdown-btn {
+        padding: 6px 12px !important;
+        font-size: 0.9rem !important;
+        white-space: nowrap;
+        max-width: 95px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: inline-block !important; /* Kvůli použití text-overflow musí být inline-block/block */
+    }
 }
